@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="100%" height="100%">
+  <defs>
+    <filter id="mpzShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+    <linearGradient id="mpzGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#eff6ff" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+  </defs>
+
+  <!-- Diamond Shield Base -->
+  <path d="M 100 8 L 188 56 C 188 130 150 184 100 216 C 50 184 12 130 12 56 Z"
+        fill="url(#mpzGrad)"
+        stroke="#003b94"
+        stroke-width="7"
+        filter="url(#mpzShadow)" />
+
+  <!-- Top Blue Star -->
+  <polygon points="100,20 104,32 116,32 106,40 110,52 100,44 90,52 94,40 84,32 96,32" fill="#003b94" />
+
+  <!-- Ribbon: GUERREROS DEL SUR -->
+  <path d="M 24 64 C 60 52 140 52 176 64 L 170 80 C 140 70 60 70 30 80 Z" fill="#003b94" />
+  <text x="100" y="72" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="900" font-family="'Arial Black', Impact, sans-serif" letter-spacing="1">
+    GUERREROS
+  </text>
+  <text x="100" y="88" text-anchor="middle" fill="#003b94" font-size="12" font-weight="900" font-family="'Arial Black', sans-serif" letter-spacing="1">
+    DEL SUR
+  </text>
+
+  <!-- Soccer Ball with Motion Lines -->
+  <circle cx="72" cy="124" r="20" fill="#ffffff" stroke="#003b94" stroke-width="3" />
+  <path d="M 24 152 Q 50 140 64 132" stroke="#003b94" stroke-width="3" fill="none" />
+  <path d="M 32 164 Q 56 150 72 140" stroke="#003b94" stroke-width="3" fill="none" />
+
+  <!-- Bold SUR text -->
+  <text x="132" y="148" text-anchor="middle" fill="#003b94" font-size="48" font-weight="900" font-family="'Arial Black', Impact, sans-serif">
+    SUR
+  </text>
+
+  <!-- PZ Desde 1962 -->
+  <text x="100" y="184" text-anchor="middle" fill="#003b94" font-size="14" font-weight="900" font-family="'Arial Black', sans-serif" letter-spacing="0.5">
+    PZ DESDE 1962
+  </text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <filter id="sapShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Burgundy Rim -->
+  <circle cx="100" cy="100" r="96" fill="#580e22" stroke="#ffffff" stroke-width="4" filter="url(#sapShadow)" />
+  
+  <!-- White Inner Band -->
+  <circle cx="100" cy="100" r="88" fill="#ffffff" />
+  
+  <!-- Inner Burgundy Circle -->
+  <circle cx="100" cy="100" r="66" fill="#580e22" stroke="#ffffff" stroke-width="2" />
+  
+  <!-- Top Curved Text: DEPORTIVO SAPRISSA -->
+  <path id="sapTopArc" d="M 32 100 A 68 68 0 0 1 168 100" fill="none" />
+  <text fill="#580e22" font-size="12.5" font-weight="900" font-family="'Arial Black', Impact, sans-serif" letter-spacing="1">
+    <textPath href="#sapTopArc" startOffset="50%" text-anchor="middle">
+      DEPORTIVO SAPRISSA
+    </textPath>
+  </text>
+  
+  <!-- Bottom Curved Text: 1935 • COSTA RICA -->
+  <path id="sapBottomArc" d="M 168 100 A 68 68 0 0 1 32 100" fill="none" />
+  <text fill="#580e22" font-size="11" font-weight="900" font-family="'Arial Black', Impact, sans-serif" letter-spacing="1.5">
+    <textPath href="#sapBottomArc" startOffset="50%" text-anchor="middle">
+      ★ 1935 • COSTA RICA ★
+    </textPath>
+  </text>
+  
+  <!-- Saprissa Iconic Faceted "S" (Pure White) -->
+  <path d="M 80 56 L 124 56 L 138 68 L 138 88 L 122 100 L 138 112 L 138 132 L 124 144 L 76 144 L 64 132 L 64 112 L 76 100 L 92 100 L 106 100 L 106 128 L 86 128 L 86 118 L 78 118 L 78 134 L 86 140 L 114 140 L 120 134 L 120 114 L 114 108 L 90 108 L 76 94 L 64 80 L 64 68 L 76 56 Z
+           M 78 68 L 78 84 L 88 92 L 112 92 L 120 84 L 120 68 L 112 62 L 86 62 Z"
+        fill="#ffffff"
+        fill-rule="evenodd" />
+</svg>

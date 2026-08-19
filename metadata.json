@@ -1,0 +1,6 @@
+{
+  "name": "Quiniela Liga Promérica - Apertura 2026/27",
+  "description": "Quiniela interactiva de fútbol de la Primera División de Costa Rica con 18 jornadas, Fase Final, Gran Final condicional, registro de pronósticos y tabla de posiciones de usuarios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
