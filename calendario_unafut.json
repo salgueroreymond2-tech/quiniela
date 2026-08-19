@@ -1,0 +1,2939 @@
+{
+  "fuente": {
+    "organizacion": "UNAFUT Sitio Oficial",
+    "url": "https://www.unafut.com/calendario",
+    "titulo": "Calendario",
+    "liga": "costarica",
+    "competition_id": 2373,
+    "fase": "Fase Regular"
+  },
+  "filtros_disponibles": {
+    "semanas": [
+      "Todas las Semanas",
+      "Semana 1",
+      "Semana 2",
+      "Semana 3",
+      "Semana 4",
+      "Semana 5",
+      "Semana 6",
+      "Semana 7",
+      "Semana 8",
+      "Semana 9",
+      "Semana 10",
+      "Semana 11",
+      "Semana 12",
+      "Semana 13",
+      "Semana 14",
+      "Semana 15",
+      "Semana 16",
+      "Semana 17",
+      "Semana 18"
+    ],
+    "clubes": [
+      "Todos los Clubes",
+      "Puntarenas F.C.",
+      "Municipal Pérez Zeledón",
+      "Escorpiones F.C.",
+      "C.S. Cartaginés",
+      "C.S. Herediano",
+      "Sporting F.C.",
+      "Inter San Carlos",
+      "Deportivo Saprissa",
+      "L.D. Alajuelense",
+      "A.D. San Carlos"
+    ]
+  },
+  "resumen": {
+    "total_partidos_extraidos": 89,
+    "total_semanas_con_partidos": 18,
+    "nota": "Datos extraídos del HTML proporcionado de la vista Calendario de UNAFUT."
+  },
+  "partidos": [
+    {
+      "id_partido": 396179,
+      "fecha": "23.07",
+      "semana": "Semana 1",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 3,
+        "visitante": 0,
+        "texto": "3:0"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396179"
+    },
+    {
+      "id_partido": 396186,
+      "fecha": "24.07",
+      "semana": "Semana 1",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 5,
+        "visitante": 1,
+        "texto": "5:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396186"
+    },
+    {
+      "id_partido": 396140,
+      "fecha": "25.07",
+      "semana": "Semana 1",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 3,
+        "visitante": 1,
+        "texto": "3:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396140"
+    },
+    {
+      "id_partido": 396189,
+      "fecha": "25.07",
+      "semana": "Semana 1",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 1,
+        "visitante": 1,
+        "texto": "1:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396189"
+    },
+    {
+      "id_partido": 396167,
+      "fecha": "01.08",
+      "semana": "Semana 2",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 1,
+        "visitante": 1,
+        "texto": "1:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396167"
+    },
+    {
+      "id_partido": 396206,
+      "fecha": "01.08",
+      "semana": "Semana 2",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "Escorpiones F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "marcador": {
+        "local": 2,
+        "visitante": 1,
+        "texto": "2:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396206"
+    },
+    {
+      "id_partido": 396196,
+      "fecha": "02.08",
+      "semana": "Semana 2",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 2,
+        "visitante": 1,
+        "texto": "2:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396196"
+    },
+    {
+      "id_partido": 396144,
+      "fecha": "02.08",
+      "semana": "Semana 2",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 1,
+        "visitante": 1,
+        "texto": "1:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396144"
+    },
+    {
+      "id_partido": 396153,
+      "fecha": "03.08",
+      "semana": "Semana 2",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 1,
+        "visitante": 0,
+        "texto": "1:0"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396153"
+    },
+    {
+      "id_partido": 396180,
+      "fecha": "07.08",
+      "semana": "Semana 3",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 2,
+        "visitante": 1,
+        "texto": "2:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396180"
+    },
+    {
+      "id_partido": 396162,
+      "fecha": "08.08",
+      "semana": "Semana 3",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 0,
+        "visitante": 0,
+        "texto": "0:0"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396162"
+    },
+    {
+      "id_partido": 396148,
+      "fecha": "08.08",
+      "semana": "Semana 3",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 0,
+        "visitante": 2,
+        "texto": "0:2"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396148"
+    },
+    {
+      "id_partido": 396155,
+      "fecha": "09.08",
+      "semana": "Semana 3",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 2,
+        "visitante": 0,
+        "texto": "2:0"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396155"
+    },
+    {
+      "id_partido": 396193,
+      "fecha": "09.08",
+      "semana": "Semana 3",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 0,
+        "visitante": 3,
+        "texto": "0:3"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396193"
+    },
+    {
+      "id_partido": 396158,
+      "fecha": "14.08",
+      "semana": "Semana 4",
+      "equipo_local": "A.D. San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 1,
+        "visitante": 0,
+        "texto": "1:0"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396158"
+    },
+    {
+      "id_partido": 396191,
+      "fecha": "15.08",
+      "semana": "Semana 4",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 2,
+        "visitante": 1,
+        "texto": "2:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396191"
+    },
+    {
+      "id_partido": 396147,
+      "fecha": "15.08",
+      "semana": "Semana 4",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 3,
+        "visitante": 2,
+        "texto": "3:2"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396147"
+    },
+    {
+      "id_partido": 396182,
+      "fecha": "16.08",
+      "semana": "Semana 4",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 0,
+        "visitante": 1,
+        "texto": "0:1"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396182"
+    },
+    {
+      "id_partido": 396159,
+      "fecha": "17.08",
+      "semana": "Semana 4",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "Escorpiones F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "marcador": {
+        "local": 2,
+        "visitante": 0,
+        "texto": "2:0"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396159"
+    },
+    {
+      "id_partido": 396151,
+      "fecha": "21.08",
+      "semana": "Semana 5",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 19,
+        "visitante": 0,
+        "texto": "19:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396151?prev=1"
+    },
+    {
+      "id_partido": 396223,
+      "fecha": "22.08",
+      "semana": "Semana 5",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 17,
+        "visitante": 0,
+        "texto": "17:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396223?prev=1"
+    },
+    {
+      "id_partido": 396194,
+      "fecha": "22.08",
+      "semana": "Semana 5",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 20,
+        "visitante": 0,
+        "texto": "20:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396194?prev=1"
+    },
+    {
+      "id_partido": 396160,
+      "fecha": "23.08",
+      "semana": "Semana 5",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396160?prev=1"
+    },
+    {
+      "id_partido": 396185,
+      "fecha": "23.08",
+      "semana": "Semana 5",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 18,
+        "visitante": 0,
+        "texto": "18:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396185?prev=1"
+    },
+    {
+      "id_partido": 396169,
+      "fecha": "28.08",
+      "semana": "Semana 6",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 20,
+        "visitante": 0,
+        "texto": "20:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396169?prev=1"
+    },
+    {
+      "id_partido": 396143,
+      "fecha": "29.08",
+      "semana": "Semana 6",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 20,
+        "visitante": 0,
+        "texto": "20:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396143?prev=1"
+    },
+    {
+      "id_partido": 396145,
+      "fecha": "30.08",
+      "semana": "Semana 6",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 11,
+        "visitante": 0,
+        "texto": "11:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396145?prev=1"
+    },
+    {
+      "id_partido": 396221,
+      "fecha": "30.08",
+      "semana": "Semana 6",
+      "equipo_local": "A.D. San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 16,
+        "visitante": 0,
+        "texto": "16:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396221?prev=1"
+    },
+    {
+      "id_partido": 396163,
+      "fecha": "30.08",
+      "semana": "Semana 6",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "Escorpiones F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "marcador": {
+        "local": 18,
+        "visitante": 0,
+        "texto": "18:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396163?prev=1"
+    },
+    {
+      "id_partido": 396165,
+      "fecha": "06.09",
+      "semana": "Semana 7",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396165?prev=1"
+    },
+    {
+      "id_partido": 396170,
+      "fecha": "06.09",
+      "semana": "Semana 7",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396170?prev=1"
+    },
+    {
+      "id_partido": 396187,
+      "fecha": "06.09",
+      "semana": "Semana 7",
+      "equipo_local": "A.D. San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396187?prev=1"
+    },
+    {
+      "id_partido": 396225,
+      "fecha": "06.09",
+      "semana": "Semana 7",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396225?prev=1"
+    },
+    {
+      "id_partido": 396227,
+      "fecha": "06.09",
+      "semana": "Semana 7",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396227?prev=1"
+    },
+    {
+      "id_partido": 396157,
+      "fecha": "13.09",
+      "semana": "Semana 8",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396157?prev=1"
+    },
+    {
+      "id_partido": 396174,
+      "fecha": "13.09",
+      "semana": "Semana 8",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396174?prev=1"
+    },
+    {
+      "id_partido": 396188,
+      "fecha": "13.09",
+      "semana": "Semana 8",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396188?prev=1"
+    },
+    {
+      "id_partido": 396192,
+      "fecha": "13.09",
+      "semana": "Semana 8",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396192?prev=1"
+    },
+    {
+      "id_partido": 396229,
+      "fecha": "13.09",
+      "semana": "Semana 8",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396229?prev=1"
+    },
+    {
+      "id_partido": 396152,
+      "fecha": "20.09",
+      "semana": "Semana 9",
+      "equipo_local": "A.D. San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396152?prev=1"
+    },
+    {
+      "id_partido": 396172,
+      "fecha": "20.09",
+      "semana": "Semana 9",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "Escorpiones F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396172?prev=1"
+    },
+    {
+      "id_partido": 396195,
+      "fecha": "20.09",
+      "semana": "Semana 9",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396195?prev=1"
+    },
+    {
+      "id_partido": 396197,
+      "fecha": "20.09",
+      "semana": "Semana 9",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396197?prev=1"
+    },
+    {
+      "id_partido": 396199,
+      "fecha": "20.09",
+      "semana": "Semana 9",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396199?prev=1"
+    },
+    {
+      "id_partido": 396146,
+      "fecha": "11.10",
+      "semana": "Semana 10",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396146?prev=1"
+    },
+    {
+      "id_partido": 396150,
+      "fecha": "11.10",
+      "semana": "Semana 10",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396150?prev=1"
+    },
+    {
+      "id_partido": 396161,
+      "fecha": "11.10",
+      "semana": "Semana 10",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396161?prev=1"
+    },
+    {
+      "id_partido": 396209,
+      "fecha": "11.10",
+      "semana": "Semana 10",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396209?prev=1"
+    },
+    {
+      "id_partido": 396212,
+      "fecha": "11.10",
+      "semana": "Semana 10",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396212?prev=1"
+    },
+    {
+      "id_partido": 396164,
+      "fecha": "14.10",
+      "semana": "Semana 11",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396164?prev=1"
+    },
+    {
+      "id_partido": 396166,
+      "fecha": "14.10",
+      "semana": "Semana 11",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396166?prev=1"
+    },
+    {
+      "id_partido": 396171,
+      "fecha": "14.10",
+      "semana": "Semana 11",
+      "equipo_local": "A.D. San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396171?prev=1"
+    },
+    {
+      "id_partido": 396175,
+      "fecha": "14.10",
+      "semana": "Semana 11",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "Escorpiones F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396175?prev=1"
+    },
+    {
+      "id_partido": 396207,
+      "fecha": "14.10",
+      "semana": "Semana 11",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396207?prev=1"
+    },
+    {
+      "id_partido": 396178,
+      "fecha": "18.10",
+      "semana": "Semana 12",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396178?prev=1"
+    },
+    {
+      "id_partido": 396201,
+      "fecha": "18.10",
+      "semana": "Semana 12",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396201?prev=1"
+    },
+    {
+      "id_partido": 396203,
+      "fecha": "18.10",
+      "semana": "Semana 12",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396203?prev=1"
+    },
+    {
+      "id_partido": 396216,
+      "fecha": "18.10",
+      "semana": "Semana 12",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396216?prev=1"
+    },
+    {
+      "id_partido": 396226,
+      "fecha": "18.10",
+      "semana": "Semana 12",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396226?prev=1"
+    },
+    {
+      "id_partido": 396184,
+      "fecha": "25.10",
+      "semana": "Semana 13",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396184?prev=1"
+    },
+    {
+      "id_partido": 396210,
+      "fecha": "25.10",
+      "semana": "Semana 13",
+      "equipo_local": "A.D. San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396210?prev=1"
+    },
+    {
+      "id_partido": 396219,
+      "fecha": "25.10",
+      "semana": "Semana 13",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396219?prev=1"
+    },
+    {
+      "id_partido": 396228,
+      "fecha": "25.10",
+      "semana": "Semana 13",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396228?prev=1"
+    },
+    {
+      "id_partido": 396231,
+      "fecha": "25.10",
+      "semana": "Semana 13",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396231?prev=1"
+    },
+    {
+      "id_partido": 396142,
+      "fecha": "01.11",
+      "semana": "Semana 14",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "Escorpiones F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396142?prev=1"
+    },
+    {
+      "id_partido": 396149,
+      "fecha": "01.11",
+      "semana": "Semana 14",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396149?prev=1"
+    },
+    {
+      "id_partido": 396168,
+      "fecha": "01.11",
+      "semana": "Semana 14",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396168?prev=1"
+    },
+    {
+      "id_partido": 396200,
+      "fecha": "01.11",
+      "semana": "Semana 14",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396200?prev=1"
+    },
+    {
+      "id_partido": 396205,
+      "fecha": "01.11",
+      "semana": "Semana 14",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396205?prev=1"
+    },
+    {
+      "id_partido": 396202,
+      "fecha": "04.11",
+      "semana": "Semana 15",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396202?prev=1"
+    },
+    {
+      "id_partido": 396204,
+      "fecha": "04.11",
+      "semana": "Semana 15",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396204?prev=1"
+    },
+    {
+      "id_partido": 396208,
+      "fecha": "04.11",
+      "semana": "Semana 15",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396208?prev=1"
+    },
+    {
+      "id_partido": 396214,
+      "fecha": "04.11",
+      "semana": "Semana 15",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396214?prev=1"
+    },
+    {
+      "id_partido": 396220,
+      "fecha": "04.11",
+      "semana": "Semana 15",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396220?prev=1"
+    },
+    {
+      "id_partido": 396176,
+      "fecha": "08.11",
+      "semana": "Semana 16",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396176?prev=1"
+    },
+    {
+      "id_partido": 396181,
+      "fecha": "08.11",
+      "semana": "Semana 16",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396181?prev=1"
+    },
+    {
+      "id_partido": 396198,
+      "fecha": "08.11",
+      "semana": "Semana 16",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "Escorpiones F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396198?prev=1"
+    },
+    {
+      "id_partido": 396211,
+      "fecha": "08.11",
+      "semana": "Semana 16",
+      "equipo_local": "A.D. San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396211?prev=1"
+    },
+    {
+      "id_partido": 396215,
+      "fecha": "08.11",
+      "semana": "Semana 16",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396215?prev=1"
+    },
+    {
+      "id_partido": 396141,
+      "fecha": "22.11",
+      "semana": "Semana 17",
+      "equipo_local": "Escorpiones F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "equipo_visitante": "A.D. San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396141?prev=1"
+    },
+    {
+      "id_partido": 396154,
+      "fecha": "22.11",
+      "semana": "Semana 17",
+      "equipo_local": "Puntarenas F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "equipo_visitante": "C.S. Herediano",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396154?prev=1"
+    },
+    {
+      "id_partido": 396190,
+      "fecha": "22.11",
+      "semana": "Semana 17",
+      "equipo_local": "Municipal Pérez Zeledón",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "equipo_visitante": "Deportivo Saprissa",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396190?prev=1"
+    },
+    {
+      "id_partido": 396217,
+      "fecha": "22.11",
+      "semana": "Semana 17",
+      "equipo_local": "Inter San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "equipo_visitante": "Sporting F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396217?prev=1"
+    },
+    {
+      "id_partido": 396230,
+      "fecha": "22.11",
+      "semana": "Semana 17",
+      "equipo_local": "L.D. Alajuelense",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "equipo_visitante": "C.S. Cartaginés",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396230?prev=1"
+    },
+    {
+      "id_partido": 396173,
+      "fecha": "29.11",
+      "semana": "Semana 18",
+      "equipo_local": "C.S. Herediano",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+      "equipo_visitante": "Escorpiones F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396173?prev=1"
+    },
+    {
+      "id_partido": 396177,
+      "fecha": "29.11",
+      "semana": "Semana 18",
+      "equipo_local": "Sporting F.C.",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+      "equipo_visitante": "Puntarenas F.C.",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396177?prev=1"
+    },
+    {
+      "id_partido": 396213,
+      "fecha": "29.11",
+      "semana": "Semana 18",
+      "equipo_local": "A.D. San Carlos",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+      "equipo_visitante": "L.D. Alajuelense",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396213?prev=1"
+    },
+    {
+      "id_partido": 396218,
+      "fecha": "29.11",
+      "semana": "Semana 18",
+      "equipo_local": "C.S. Cartaginés",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+      "equipo_visitante": "Municipal Pérez Zeledón",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396218?prev=1"
+    },
+    {
+      "id_partido": 396224,
+      "fecha": "29.11",
+      "semana": "Semana 18",
+      "equipo_local": "Deportivo Saprissa",
+      "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+      "equipo_visitante": "Inter San Carlos",
+      "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+      "marcador": {
+        "local": 15,
+        "visitante": 0,
+        "texto": "15:00"
+      },
+      "estado": "finalizado",
+      "url_partido": "https://www.unafut.com/partido/396224?prev=1"
+    }
+  ],
+  "por_semana": {
+    "Semana 1": [
+      {
+        "id_partido": 396179,
+        "fecha": "23.07",
+        "semana": "Semana 1",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 3,
+          "visitante": 0,
+          "texto": "3:0"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396179"
+      },
+      {
+        "id_partido": 396186,
+        "fecha": "24.07",
+        "semana": "Semana 1",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 5,
+          "visitante": 1,
+          "texto": "5:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396186"
+      },
+      {
+        "id_partido": 396140,
+        "fecha": "25.07",
+        "semana": "Semana 1",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 3,
+          "visitante": 1,
+          "texto": "3:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396140"
+      },
+      {
+        "id_partido": 396189,
+        "fecha": "25.07",
+        "semana": "Semana 1",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 1,
+          "visitante": 1,
+          "texto": "1:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396189"
+      }
+    ],
+    "Semana 2": [
+      {
+        "id_partido": 396167,
+        "fecha": "01.08",
+        "semana": "Semana 2",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 1,
+          "visitante": 1,
+          "texto": "1:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396167"
+      },
+      {
+        "id_partido": 396206,
+        "fecha": "01.08",
+        "semana": "Semana 2",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "Escorpiones F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "marcador": {
+          "local": 2,
+          "visitante": 1,
+          "texto": "2:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396206"
+      },
+      {
+        "id_partido": 396196,
+        "fecha": "02.08",
+        "semana": "Semana 2",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 2,
+          "visitante": 1,
+          "texto": "2:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396196"
+      },
+      {
+        "id_partido": 396144,
+        "fecha": "02.08",
+        "semana": "Semana 2",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 1,
+          "visitante": 1,
+          "texto": "1:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396144"
+      },
+      {
+        "id_partido": 396153,
+        "fecha": "03.08",
+        "semana": "Semana 2",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 1,
+          "visitante": 0,
+          "texto": "1:0"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396153"
+      }
+    ],
+    "Semana 3": [
+      {
+        "id_partido": 396180,
+        "fecha": "07.08",
+        "semana": "Semana 3",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 2,
+          "visitante": 1,
+          "texto": "2:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396180"
+      },
+      {
+        "id_partido": 396162,
+        "fecha": "08.08",
+        "semana": "Semana 3",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 0,
+          "visitante": 0,
+          "texto": "0:0"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396162"
+      },
+      {
+        "id_partido": 396148,
+        "fecha": "08.08",
+        "semana": "Semana 3",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 0,
+          "visitante": 2,
+          "texto": "0:2"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396148"
+      },
+      {
+        "id_partido": 396155,
+        "fecha": "09.08",
+        "semana": "Semana 3",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 2,
+          "visitante": 0,
+          "texto": "2:0"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396155"
+      },
+      {
+        "id_partido": 396193,
+        "fecha": "09.08",
+        "semana": "Semana 3",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 0,
+          "visitante": 3,
+          "texto": "0:3"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396193"
+      }
+    ],
+    "Semana 4": [
+      {
+        "id_partido": 396158,
+        "fecha": "14.08",
+        "semana": "Semana 4",
+        "equipo_local": "A.D. San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 1,
+          "visitante": 0,
+          "texto": "1:0"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396158"
+      },
+      {
+        "id_partido": 396191,
+        "fecha": "15.08",
+        "semana": "Semana 4",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 2,
+          "visitante": 1,
+          "texto": "2:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396191"
+      },
+      {
+        "id_partido": 396147,
+        "fecha": "15.08",
+        "semana": "Semana 4",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 3,
+          "visitante": 2,
+          "texto": "3:2"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396147"
+      },
+      {
+        "id_partido": 396182,
+        "fecha": "16.08",
+        "semana": "Semana 4",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 0,
+          "visitante": 1,
+          "texto": "0:1"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396182"
+      },
+      {
+        "id_partido": 396159,
+        "fecha": "17.08",
+        "semana": "Semana 4",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "Escorpiones F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "marcador": {
+          "local": 2,
+          "visitante": 0,
+          "texto": "2:0"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396159"
+      }
+    ],
+    "Semana 5": [
+      {
+        "id_partido": 396151,
+        "fecha": "21.08",
+        "semana": "Semana 5",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 19,
+          "visitante": 0,
+          "texto": "19:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396151?prev=1"
+      },
+      {
+        "id_partido": 396223,
+        "fecha": "22.08",
+        "semana": "Semana 5",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 17,
+          "visitante": 0,
+          "texto": "17:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396223?prev=1"
+      },
+      {
+        "id_partido": 396194,
+        "fecha": "22.08",
+        "semana": "Semana 5",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 20,
+          "visitante": 0,
+          "texto": "20:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396194?prev=1"
+      },
+      {
+        "id_partido": 396160,
+        "fecha": "23.08",
+        "semana": "Semana 5",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396160?prev=1"
+      },
+      {
+        "id_partido": 396185,
+        "fecha": "23.08",
+        "semana": "Semana 5",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 18,
+          "visitante": 0,
+          "texto": "18:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396185?prev=1"
+      }
+    ],
+    "Semana 6": [
+      {
+        "id_partido": 396169,
+        "fecha": "28.08",
+        "semana": "Semana 6",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 20,
+          "visitante": 0,
+          "texto": "20:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396169?prev=1"
+      },
+      {
+        "id_partido": 396143,
+        "fecha": "29.08",
+        "semana": "Semana 6",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 20,
+          "visitante": 0,
+          "texto": "20:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396143?prev=1"
+      },
+      {
+        "id_partido": 396145,
+        "fecha": "30.08",
+        "semana": "Semana 6",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 11,
+          "visitante": 0,
+          "texto": "11:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396145?prev=1"
+      },
+      {
+        "id_partido": 396221,
+        "fecha": "30.08",
+        "semana": "Semana 6",
+        "equipo_local": "A.D. San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 16,
+          "visitante": 0,
+          "texto": "16:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396221?prev=1"
+      },
+      {
+        "id_partido": 396163,
+        "fecha": "30.08",
+        "semana": "Semana 6",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "Escorpiones F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "marcador": {
+          "local": 18,
+          "visitante": 0,
+          "texto": "18:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396163?prev=1"
+      }
+    ],
+    "Semana 7": [
+      {
+        "id_partido": 396165,
+        "fecha": "06.09",
+        "semana": "Semana 7",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396165?prev=1"
+      },
+      {
+        "id_partido": 396170,
+        "fecha": "06.09",
+        "semana": "Semana 7",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396170?prev=1"
+      },
+      {
+        "id_partido": 396187,
+        "fecha": "06.09",
+        "semana": "Semana 7",
+        "equipo_local": "A.D. San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396187?prev=1"
+      },
+      {
+        "id_partido": 396225,
+        "fecha": "06.09",
+        "semana": "Semana 7",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396225?prev=1"
+      },
+      {
+        "id_partido": 396227,
+        "fecha": "06.09",
+        "semana": "Semana 7",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396227?prev=1"
+      }
+    ],
+    "Semana 8": [
+      {
+        "id_partido": 396157,
+        "fecha": "13.09",
+        "semana": "Semana 8",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396157?prev=1"
+      },
+      {
+        "id_partido": 396174,
+        "fecha": "13.09",
+        "semana": "Semana 8",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396174?prev=1"
+      },
+      {
+        "id_partido": 396188,
+        "fecha": "13.09",
+        "semana": "Semana 8",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396188?prev=1"
+      },
+      {
+        "id_partido": 396192,
+        "fecha": "13.09",
+        "semana": "Semana 8",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396192?prev=1"
+      },
+      {
+        "id_partido": 396229,
+        "fecha": "13.09",
+        "semana": "Semana 8",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396229?prev=1"
+      }
+    ],
+    "Semana 9": [
+      {
+        "id_partido": 396152,
+        "fecha": "20.09",
+        "semana": "Semana 9",
+        "equipo_local": "A.D. San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396152?prev=1"
+      },
+      {
+        "id_partido": 396172,
+        "fecha": "20.09",
+        "semana": "Semana 9",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "Escorpiones F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396172?prev=1"
+      },
+      {
+        "id_partido": 396195,
+        "fecha": "20.09",
+        "semana": "Semana 9",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396195?prev=1"
+      },
+      {
+        "id_partido": 396197,
+        "fecha": "20.09",
+        "semana": "Semana 9",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396197?prev=1"
+      },
+      {
+        "id_partido": 396199,
+        "fecha": "20.09",
+        "semana": "Semana 9",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396199?prev=1"
+      }
+    ],
+    "Semana 10": [
+      {
+        "id_partido": 396146,
+        "fecha": "11.10",
+        "semana": "Semana 10",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396146?prev=1"
+      },
+      {
+        "id_partido": 396150,
+        "fecha": "11.10",
+        "semana": "Semana 10",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396150?prev=1"
+      },
+      {
+        "id_partido": 396161,
+        "fecha": "11.10",
+        "semana": "Semana 10",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396161?prev=1"
+      },
+      {
+        "id_partido": 396209,
+        "fecha": "11.10",
+        "semana": "Semana 10",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396209?prev=1"
+      },
+      {
+        "id_partido": 396212,
+        "fecha": "11.10",
+        "semana": "Semana 10",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396212?prev=1"
+      }
+    ],
+    "Semana 11": [
+      {
+        "id_partido": 396164,
+        "fecha": "14.10",
+        "semana": "Semana 11",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396164?prev=1"
+      },
+      {
+        "id_partido": 396166,
+        "fecha": "14.10",
+        "semana": "Semana 11",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396166?prev=1"
+      },
+      {
+        "id_partido": 396171,
+        "fecha": "14.10",
+        "semana": "Semana 11",
+        "equipo_local": "A.D. San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396171?prev=1"
+      },
+      {
+        "id_partido": 396175,
+        "fecha": "14.10",
+        "semana": "Semana 11",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "Escorpiones F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396175?prev=1"
+      },
+      {
+        "id_partido": 396207,
+        "fecha": "14.10",
+        "semana": "Semana 11",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396207?prev=1"
+      }
+    ],
+    "Semana 12": [
+      {
+        "id_partido": 396178,
+        "fecha": "18.10",
+        "semana": "Semana 12",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396178?prev=1"
+      },
+      {
+        "id_partido": 396201,
+        "fecha": "18.10",
+        "semana": "Semana 12",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396201?prev=1"
+      },
+      {
+        "id_partido": 396203,
+        "fecha": "18.10",
+        "semana": "Semana 12",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396203?prev=1"
+      },
+      {
+        "id_partido": 396216,
+        "fecha": "18.10",
+        "semana": "Semana 12",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396216?prev=1"
+      },
+      {
+        "id_partido": 396226,
+        "fecha": "18.10",
+        "semana": "Semana 12",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396226?prev=1"
+      }
+    ],
+    "Semana 13": [
+      {
+        "id_partido": 396184,
+        "fecha": "25.10",
+        "semana": "Semana 13",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396184?prev=1"
+      },
+      {
+        "id_partido": 396210,
+        "fecha": "25.10",
+        "semana": "Semana 13",
+        "equipo_local": "A.D. San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396210?prev=1"
+      },
+      {
+        "id_partido": 396219,
+        "fecha": "25.10",
+        "semana": "Semana 13",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396219?prev=1"
+      },
+      {
+        "id_partido": 396228,
+        "fecha": "25.10",
+        "semana": "Semana 13",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396228?prev=1"
+      },
+      {
+        "id_partido": 396231,
+        "fecha": "25.10",
+        "semana": "Semana 13",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396231?prev=1"
+      }
+    ],
+    "Semana 14": [
+      {
+        "id_partido": 396142,
+        "fecha": "01.11",
+        "semana": "Semana 14",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "Escorpiones F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396142?prev=1"
+      },
+      {
+        "id_partido": 396149,
+        "fecha": "01.11",
+        "semana": "Semana 14",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396149?prev=1"
+      },
+      {
+        "id_partido": 396168,
+        "fecha": "01.11",
+        "semana": "Semana 14",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396168?prev=1"
+      },
+      {
+        "id_partido": 396200,
+        "fecha": "01.11",
+        "semana": "Semana 14",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396200?prev=1"
+      },
+      {
+        "id_partido": 396205,
+        "fecha": "01.11",
+        "semana": "Semana 14",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396205?prev=1"
+      }
+    ],
+    "Semana 15": [
+      {
+        "id_partido": 396202,
+        "fecha": "04.11",
+        "semana": "Semana 15",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396202?prev=1"
+      },
+      {
+        "id_partido": 396204,
+        "fecha": "04.11",
+        "semana": "Semana 15",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396204?prev=1"
+      },
+      {
+        "id_partido": 396208,
+        "fecha": "04.11",
+        "semana": "Semana 15",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396208?prev=1"
+      },
+      {
+        "id_partido": 396214,
+        "fecha": "04.11",
+        "semana": "Semana 15",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396214?prev=1"
+      },
+      {
+        "id_partido": 396220,
+        "fecha": "04.11",
+        "semana": "Semana 15",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396220?prev=1"
+      }
+    ],
+    "Semana 16": [
+      {
+        "id_partido": 396176,
+        "fecha": "08.11",
+        "semana": "Semana 16",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396176?prev=1"
+      },
+      {
+        "id_partido": 396181,
+        "fecha": "08.11",
+        "semana": "Semana 16",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396181?prev=1"
+      },
+      {
+        "id_partido": 396198,
+        "fecha": "08.11",
+        "semana": "Semana 16",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "Escorpiones F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396198?prev=1"
+      },
+      {
+        "id_partido": 396211,
+        "fecha": "08.11",
+        "semana": "Semana 16",
+        "equipo_local": "A.D. San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396211?prev=1"
+      },
+      {
+        "id_partido": 396215,
+        "fecha": "08.11",
+        "semana": "Semana 16",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396215?prev=1"
+      }
+    ],
+    "Semana 17": [
+      {
+        "id_partido": 396141,
+        "fecha": "22.11",
+        "semana": "Semana 17",
+        "equipo_local": "Escorpiones F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "equipo_visitante": "A.D. San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396141?prev=1"
+      },
+      {
+        "id_partido": 396154,
+        "fecha": "22.11",
+        "semana": "Semana 17",
+        "equipo_local": "Puntarenas F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "equipo_visitante": "C.S. Herediano",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396154?prev=1"
+      },
+      {
+        "id_partido": 396190,
+        "fecha": "22.11",
+        "semana": "Semana 17",
+        "equipo_local": "Municipal Pérez Zeledón",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "equipo_visitante": "Deportivo Saprissa",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396190?prev=1"
+      },
+      {
+        "id_partido": 396217,
+        "fecha": "22.11",
+        "semana": "Semana 17",
+        "equipo_local": "Inter San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "equipo_visitante": "Sporting F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396217?prev=1"
+      },
+      {
+        "id_partido": 396230,
+        "fecha": "22.11",
+        "semana": "Semana 17",
+        "equipo_local": "L.D. Alajuelense",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "equipo_visitante": "C.S. Cartaginés",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396230?prev=1"
+      }
+    ],
+    "Semana 18": [
+      {
+        "id_partido": 396173,
+        "fecha": "29.11",
+        "semana": "Semana 18",
+        "equipo_local": "C.S. Herediano",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/097764c20d0c208daab3b0cc955c057eT1.png",
+        "equipo_visitante": "Escorpiones F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/7d615541d195d65e0bf9dccf37a68667T1.jpg",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396173?prev=1"
+      },
+      {
+        "id_partido": 396177,
+        "fecha": "29.11",
+        "semana": "Semana 18",
+        "equipo_local": "Sporting F.C.",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/8bfadddecfdb8f97f261ff04d51ef209T1.png",
+        "equipo_visitante": "Puntarenas F.C.",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/fcbb8e831cdde70f3193b6f1d06befe0T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396177?prev=1"
+      },
+      {
+        "id_partido": 396213,
+        "fecha": "29.11",
+        "semana": "Semana 18",
+        "equipo_local": "A.D. San Carlos",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/0919ab0447ec918050240f581ddb98d1T1.png",
+        "equipo_visitante": "L.D. Alajuelense",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/cc12dc0e1be3a31cbdb19e41082a0e67T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396213?prev=1"
+      },
+      {
+        "id_partido": 396218,
+        "fecha": "29.11",
+        "semana": "Semana 18",
+        "equipo_local": "C.S. Cartaginés",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/fa2caa94351bb0b7582389a56a18eb65T1.png",
+        "equipo_visitante": "Municipal Pérez Zeledón",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/2aea1ae2222f8691fbfb1aba3491c8d9T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396218?prev=1"
+      },
+      {
+        "id_partido": 396224,
+        "fecha": "29.11",
+        "semana": "Semana 18",
+        "equipo_local": "Deportivo Saprissa",
+        "logo_local": "https://images.statsengine.playbyplay.api.geniussports.com/19b9fd102d9ef48591d37c1aa069d37dT1.png",
+        "equipo_visitante": "Inter San Carlos",
+        "logo_visitante": "https://images.statsengine.playbyplay.api.geniussports.com/75dd6c094f9fa26b7ffe7e1c29bab3b4T1.png",
+        "marcador": {
+          "local": 15,
+          "visitante": 0,
+          "texto": "15:00"
+        },
+        "estado": "finalizado",
+        "url_partido": "https://www.unafut.com/partido/396224?prev=1"
+      }
+    ]
+  }
+}
