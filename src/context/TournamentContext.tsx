@@ -65,7 +65,7 @@ interface TournamentContextType {
 const TournamentContext = createContext<TournamentContextType | undefined>(undefined);
 
 const LOCAL_STORAGE_KEY_PREDICTIONS = 'pasion_cr_predictions_v1';
-const LOCAL_STORAGE_KEY_MATCHES = 'pasion_cr_matches_v1';
+const LOCAL_STORAGE_KEY_MATCHES = 'pasion_cr_matches_v2_unafut';
 const LOCAL_STORAGE_KEY_USER = 'pasion_cr_user_v1';
 
 export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
@@ -111,8 +111,8 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
     return initialPreds;
   });
 
-  // Active round view (default to Round 15 as in screenshots)
-  const [selectedRound, setSelectedRound] = useState<number>(15);
+  // Active round view aligned with the current UNAFUT calendar date.
+  const [selectedRound, setSelectedRound] = useState<number>(5);
   const [currentStageTab, setCurrentStageTab] = useState<'regular' | 'playoffs'>('regular');
   
   // User profile & leaderboard
@@ -581,7 +581,7 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
     const playoffs = generatePlayoffMatches(top4);
     setMatches([...regular, ...playoffs]);
     setUserPredictions({});
-    setSelectedRound(15);
+    setSelectedRound(5);
     setCurrentStageTab('regular');
     playSound('click');
   };

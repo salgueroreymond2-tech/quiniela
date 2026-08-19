@@ -1,8 +1,74 @@
 import { Match, StageType } from '../types';
 import { TEAMS } from './teams';
+import unafutCalendar from '../../calendario_unafut.json';
+
+const UNAFUT_TEAM_IDS: Record<string, string> = {
+  'Puntarenas F.C.': 'pfc',
+  'Municipal Pérez Zeledón': 'mpz',
+  'Escorpiones F.C.': 'esc',
+  'C.S. Cartaginés': 'csc',
+  'C.S. Herediano': 'csh',
+  'Sporting F.C.': 'spo',
+  'Inter San Carlos': 'isc',
+  'Deportivo Saprissa': 'sap',
+  'L.D. Alajuelense': 'lda',
+  'A.D. San Carlos': 'sca',
+};
+
+const CALENDAR_DATE = new Date(2026, 7, 19);
+
+const formatCalendarDate = (date: string) => {
+  const [day, month] = date.split('.').map(Number);
+  return new Date(2026, month - 1, day).toLocaleDateString('es-CR', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+  });
+};
+
+const getCalendarMatchDate = (date: string) => {
+  const [day, month] = date.split('.').map(Number);
+  return new Date(2026, month - 1, day);
+};
+
+export function generateRegularSeason(): Match[] {
+  return unafutCalendar.partidos.map((match, index) => {
+    const homeTeamId = UNAFUT_TEAM_IDS[match.equipo_local];
+    const awayTeamId = UNAFUT_TEAM_IDS[match.equipo_visitante];
+    const homeTeam = TEAMS.find((team) => team.id === homeTeamId) || TEAMS[0];
+    const awayTeam = TEAMS.find((team) => team.id === awayTeamId) || TEAMS[1];
+    const hasBeenPlayed = getCalendarMatchDate(match.fecha) <= CALENDAR_DATE;
+    const homeScore = hasBeenPlayed ? match.marcador.local : null;
+    const awayScore = hasBeenPlayed ? match.marcador.visitante : null;
+    const round = Number(match.semana.replace('Semana ', ''));
+
+    return {
+      id: `unafut-${match.id_partido}`,
+      round,
+      stage: 'regular',
+      stageName: `Jornada ${round}`,
+      homeTeamId: homeTeam.id,
+      awayTeamId: awayTeam.id,
+      homeScore,
+      awayScore,
+      status: hasBeenPlayed ? 'finished' : 'scheduled',
+      date: formatCalendarDate(match.fecha),
+      time: hasBeenPlayed ? 'Finalizado' : match.marcador.texto,
+      stadium: homeTeam.stadium,
+      isFeatured: index % 5 === 0,
+      scorers:
+        hasBeenPlayed
+          ? [
+              ...(homeScore && homeScore > 0 ? [homeTeam.starPlayers[0]] : []),
+              ...(awayScore && awayScore > 0 ? [awayTeam.starPlayers[0]] : []),
+            ]
+          : undefined,
+    };
+  });
+}
 
 // Generates 18 rounds for the 10 teams (Berger table / round robin)
-export function generateRegularSeason(): Match[] {
+function generateMockRegularSeason(): Match[] {
   const teams = TEAMS.map((t) => t.id); // 10 team IDs
   const n = teams.length;
   const matches: Match[] = [];

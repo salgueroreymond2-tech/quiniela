@@ -181,7 +181,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
         <div>
           <h1 className="text-3xl font-heading font-extrabold tracking-tight text-white flex items-center gap-2">
             <span>{getRoundLabel(selectedRound)}</span>
-            {selectedRound === 15 && (
+            {selectedRound === 5 && (
               <span className="text-xs px-2 py-0.5 rounded-full bg-[#bf00ff]/30 text-[#ecb1ff] border border-[#bf00ff]/60 font-mono">
                 Jornada Activa
               </span>
