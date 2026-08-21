@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTournament } from '../context/TournamentContext';
 import { TEAMS } from '../data/teams';
 import { TeamBadge } from './TeamBadge';
-import { Mail, Lock, ArrowRight, User, Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { Mail, Lock, ArrowRight, User, Sparkles, CheckCircle2 } from 'lucide-react';
 
 interface LoginViewProps {
   onLoginSuccess?: () => void;
@@ -20,8 +20,13 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    updateUserProfile(name, username, favoriteTeamId);
-    loginUser();
+    const isAdminLogin = email.trim().toLowerCase() === 'admin@pasion.cr' && password === 'admin2026';
+    updateUserProfile(
+      isAdminLogin ? 'Administrador Quiniela' : name,
+      isAdminLogin ? '@admin_master' : username,
+      favoriteTeamId,
+    );
+    loginUser(isAdminLogin);
     setIsSubmitted(true);
     setTimeout(() => {
       if (onLoginSuccess) {
@@ -223,27 +228,11 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                 <span>Continuar con Google</span>
               </button>
 
-              {/* Admin Quick Login Option */}
-              <div className="pt-2 border-t border-[#3c313e]/50 flex justify-center">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setName('Administrador Quiniela');
-                    setUsername('@admin_master');
-                    updateUserProfile('Administrador Quiniela', '@admin_master', favoriteTeamId);
-                    setIsSubmitted(true);
-                    setTimeout(() => {
-                      if (onLoginSuccess) {
-                        setIsSubmitted(false);
-                        onLoginSuccess();
-                      }
-                    }, 600);
-                  }}
-                  className="text-[11px] font-mono text-amber-400 hover:text-amber-300 flex items-center gap-1.5 hover:underline cursor-pointer"
-                >
-                  <ShieldCheck className="w-3.5 h-3.5" />
-                  <span>Ingresar como Administrador</span>
-                </button>
+              {/* Admin credentials */}
+              <div className="pt-3 border-t border-[#3c313e]/50">
+                <div className="rounded-lg bg-amber-500/10 border border-amber-400/30 px-3 py-2 text-center text-[10px] font-mono text-amber-200">
+                  Admin: <strong>admin@pasion.cr</strong> · Clave: <strong>admin2026</strong>
+                </div>
               </div>
             </form>
           )}

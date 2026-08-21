@@ -1,7 +1,7 @@
 import React from 'react';
 import { LayoutDashboard, BarChart3, Trophy, MessageSquare, User } from 'lucide-react';
 
-export type NavTab = 'dashboard' | 'ranking' | 'playoffs' | 'social' | 'profile' | 'login';
+export type NavTab = 'dashboard' | 'ranking' | 'playoffs' | 'social' | 'profile' | 'admin' | 'login';
 
 interface BottomNavProps {
   activeTab: NavTab;
@@ -9,7 +9,7 @@ interface BottomNavProps {
 }
 
 export const BottomNav: React.FC<BottomNavProps> = ({ activeTab, setActiveTab }) => {
-  if (activeTab === 'login') return null;
+  if (activeTab === 'login' || activeTab === 'admin') return null;
 
   const navItems: { id: NavTab; label: string; icon: React.FC<{ className?: string }> }[] = [
     { id: 'dashboard', label: 'Panel', icon: LayoutDashboard },

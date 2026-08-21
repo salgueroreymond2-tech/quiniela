@@ -46,8 +46,9 @@ interface TournamentContextType {
   fillRandomPredictionsAll: () => void;
   resetTournament: () => void;
   toggleMute: () => void;
-  loginUser: () => void;
+  loginUser: (isAdmin?: boolean) => void;
   logoutUser: () => void;
+  deleteUser: (userId: string) => void;
   setActiveScorerMatchId: (matchId: string | null) => void;
   setShowChampionModal: (show: boolean) => void;
   setShowAuthModal: (show: boolean) => void;
@@ -70,6 +71,7 @@ const TournamentContext = createContext<TournamentContextType | undefined>(undef
 const LOCAL_STORAGE_KEY_PREDICTIONS = 'pasion_cr_predictions_v1';
 const LOCAL_STORAGE_KEY_MATCHES = 'pasion_cr_matches_v2_unafut';
 const LOCAL_STORAGE_KEY_USER = 'pasion_cr_user_v1';
+const LOCAL_STORAGE_KEY_DELETED_USERS = 'pasion_cr_deleted_users_v1';
 
 export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   // Initialize Matches
@@ -135,19 +137,29 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
   const [achievements, setAchievements] = useState<Achievement[]>(ALL_ACHIEVEMENTS);
   const [isMuted, setIsMuted] = useState<boolean>(false);
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(true);
+  const [deletedUserIds, setDeletedUserIds] = useState<string[]>(() => {
+    const saved = localStorage.getItem(LOCAL_STORAGE_KEY_DELETED_USERS);
+    return saved ? JSON.parse(saved) : [];
+  });
   const [activeScorerMatchId, setActiveScorerMatchId] = useState<string | null>(null);
   const [showChampionModal, setShowChampionModal] = useState<boolean>(false);
   const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
   const [showRulesModal, setShowRulesModal] = useState<boolean>(false);
 
-  const loginUser = () => {
+  const loginUser = (isAdmin = false) => {
     setIsLoggedIn(true);
+    setCurrentUser((prev) => ({ ...prev, isAdmin }));
     playSound('click');
   };
 
   const logoutUser = () => {
     setIsLoggedIn(false);
     playSound('click');
+  };
+
+  const deleteUser = (userId: string) => {
+    if (userId === currentUser.id) return;
+    setDeletedUserIds((prev) => [...new Set([...prev, userId])]);
   };
 
   // Sync to local storage
@@ -162,6 +174,10 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_KEY_USER, JSON.stringify(currentUser));
   }, [currentUser]);
+
+  useEffect(() => {
+    localStorage.setItem(LOCAL_STORAGE_KEY_DELETED_USERS, JSON.stringify(deletedUserIds));
+  }, [deletedUserIds]);
 
   // Dynamic Standings calculation from regular season matches (18 rounds)
   const standings: TeamStanding[] = useMemo(() => {
@@ -368,7 +384,7 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
 
   // Leaderboard ranking with current user integrated
   const leaderboard = useMemo(() => {
-    const list = [...LEADERBOARD_USERS];
+    const list = LEADERBOARD_USERS.filter((user) => !deletedUserIds.includes(user.id));
     const userIndex = list.findIndex((u) => u.id === currentUser.id);
     if (userIndex >= 0) {
       list[userIndex] = currentUser;
@@ -376,7 +392,7 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
       list.push(currentUser);
     }
     return list.sort((a, b) => b.points - a.points);
-  }, [currentUser]);
+  }, [currentUser, deletedUserIds]);
 
   // Helper to play sound effects using Web Audio API (so no external audio assets are broken)
   const playSound = (type: 'goal' | 'click' | 'lock' | 'win') => {
@@ -697,6 +713,7 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
         toggleMute,
         loginUser,
         logoutUser,
+        deleteUser,
         setActiveScorerMatchId,
         setShowChampionModal,
         setShowAuthModal,

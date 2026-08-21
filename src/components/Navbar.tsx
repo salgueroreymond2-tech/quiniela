@@ -17,6 +17,7 @@ interface NavbarProps {
   onOpenAdmin: () => void;
   onNavigateToLogin?: () => void;
   onNavigateToProfile?: () => void;
+  onNavigateToAdmin?: () => void;
   showUserProfile?: boolean;
 }
 
@@ -24,6 +25,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenAdmin,
   onNavigateToLogin,
   onNavigateToProfile,
+  onNavigateToAdmin,
   showUserProfile = true,
 }) => {
   const {
@@ -232,6 +234,19 @@ export const Navbar: React.FC<NavbarProps> = ({
                     <Edit3 className="w-4 h-4 text-[#bf00ff]" />
                     <span>Editar Perfil</span>
                   </button>
+
+                  {currentUser.isAdmin && (
+                    <button
+                      onClick={() => {
+                        setUserMenuOpen(false);
+                        onNavigateToAdmin?.();
+                      }}
+                      className="w-full flex items-center gap-2.5 px-3 py-2 text-xs font-mono text-left rounded-lg hover:bg-[#3c313e] text-amber-300 transition-colors cursor-pointer"
+                    >
+                      <SlidersHorizontal className="w-4 h-4 text-amber-300" />
+                      <span>Panel de Administrador</span>
+                    </button>
+                  )}
 
                   <button
                     onClick={() => {

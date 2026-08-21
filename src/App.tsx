@@ -13,6 +13,7 @@ import { ChampionModal } from './components/ChampionModal';
 import { AuthModal } from './components/AuthModal';
 import { RulesModal } from './components/RulesModal';
 import { AdminMatchModal } from './components/AdminMatchModal';
+import { AdminView } from './components/AdminView';
 
 const AppContent: React.FC = () => {
   const [activeTab, setActiveTab] = useState<NavTab>('login');
@@ -40,6 +41,8 @@ const AppContent: React.FC = () => {
         return <SocialView />;
       case 'profile':
         return <ProfileView onOpenLogin={() => setActiveTab('login')} />;
+      case 'admin':
+        return <AdminView />;
       case 'login':
         return <LoginView onLoginSuccess={() => setActiveTab('dashboard')} />;
       default:
@@ -54,6 +57,7 @@ const AppContent: React.FC = () => {
         onOpenAdmin={() => setAdminModalOpen(true)}
         onNavigateToLogin={() => setActiveTab('login')}
         onNavigateToProfile={() => setActiveTab('profile')}
+        onNavigateToAdmin={() => setActiveTab('admin')}
         showUserProfile={activeTab !== 'login'}
       />
 
