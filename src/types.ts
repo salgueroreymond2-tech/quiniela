@@ -76,6 +76,7 @@ export interface UserProfile {
   level: number;
   countryRankPercentile: number;
   unlockedAchievements: string[];
+  isAdmin?: boolean;
 }
 
 export interface SocialPost {

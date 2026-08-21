@@ -27,6 +27,7 @@ interface TournamentContextType {
   socialPosts: SocialPost[];
   achievements: Achievement[];
   isMuted: boolean;
+  isLoggedIn: boolean;
   activeScorerMatchId: string | null;
   showChampionModal: boolean;
   showAuthModal: boolean;
@@ -45,6 +46,7 @@ interface TournamentContextType {
   fillRandomPredictionsAll: () => void;
   resetTournament: () => void;
   toggleMute: () => void;
+  logoutUser: () => void;
   setActiveScorerMatchId: (matchId: string | null) => void;
   setShowChampionModal: (show: boolean) => void;
   setShowAuthModal: (show: boolean) => void;
@@ -131,10 +133,16 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
   const [socialPosts, setSocialPosts] = useState<SocialPost[]>(INITIAL_SOCIAL_POSTS);
   const [achievements, setAchievements] = useState<Achievement[]>(ALL_ACHIEVEMENTS);
   const [isMuted, setIsMuted] = useState<boolean>(false);
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(true);
   const [activeScorerMatchId, setActiveScorerMatchId] = useState<string | null>(null);
   const [showChampionModal, setShowChampionModal] = useState<boolean>(false);
   const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
   const [showRulesModal, setShowRulesModal] = useState<boolean>(false);
+
+  const logoutUser = () => {
+    setIsLoggedIn(false);
+    playSound('click');
+  };
 
   // Sync to local storage
   useEffect(() => {
@@ -663,6 +671,7 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
         socialPosts,
         achievements,
         isMuted,
+        isLoggedIn,
         activeScorerMatchId,
         showChampionModal,
         showAuthModal,
@@ -679,6 +688,7 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
         fillRandomPredictionsAll,
         resetTournament,
         toggleMute,
+        logoutUser,
         setActiveScorerMatchId,
         setShowChampionModal,
         setShowAuthModal,

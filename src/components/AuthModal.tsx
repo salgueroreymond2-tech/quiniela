@@ -32,8 +32,8 @@ export const AuthModal: React.FC = () => {
 
         {/* Logo Icon */}
         <div className="flex flex-col items-center text-center space-y-1">
-          <div className="w-12 h-12 rounded-2xl bg-[#bf00ff]/20 border border-[#bf00ff] flex items-center justify-center glow-purple text-2xl">
-            ⚽
+          <div className="w-14 h-14 rounded-2xl bg-[#bf00ff]/20 border border-[#bf00ff] flex items-center justify-center glow-purple overflow-hidden">
+            <img src="/logo.jpg" alt="Quiniela Pasión" className="w-full h-full object-cover" />
           </div>
           <h2 className="text-2xl font-heading font-black text-[#bf00ff] text-glow-purple uppercase tracking-wider">
             PASIÓN

@@ -16,6 +16,7 @@ export const INITIAL_CURRENT_USER: UserProfile = {
   level: 42,
   countryRankPercentile: 5,
   unlockedAchievements: ['oraculo-tico', 'experto-promerica', 'fiel-seguidor', 'sniper'],
+  isAdmin: true,
 };
 
 export const LEADERBOARD_USERS: UserProfile[] = [

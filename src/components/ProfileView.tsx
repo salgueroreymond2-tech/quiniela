@@ -14,14 +14,21 @@ import {
   ChevronRight,
   TrendingUp,
   CheckCircle2,
+  LogOut,
+  ShieldCheck,
 } from 'lucide-react';
 
-export const ProfileView: React.FC = () => {
+interface ProfileViewProps {
+  onOpenLogin?: () => void;
+}
+
+export const ProfileView: React.FC<ProfileViewProps> = ({ onOpenLogin }) => {
   const {
     currentUser,
     achievements,
     setShowAuthModal,
     setShowChampionModal,
+    logoutUser,
   } = useTournament();
 
   const favTeam = getTeamById(currentUser.favoriteTeamId);
@@ -45,14 +52,22 @@ export const ProfileView: React.FC = () => {
         </div>
 
         {/* Name & Username */}
-        <div>
+        <div className="flex flex-col items-center">
           <h1 className="text-xl font-heading font-black text-white flex items-center justify-center gap-1.5">
             <span>{currentUser.name}</span>
             <TeamBadge team={favTeam} size="xs" />
           </h1>
-          <p className="text-xs font-mono text-[#d5c0d7]">
-            {currentUser.username}
-          </p>
+          <div className="flex items-center gap-2 mt-0.5">
+            <p className="text-xs font-mono text-[#d5c0d7]">
+              {currentUser.username}
+            </p>
+            {currentUser.isAdmin && (
+              <span className="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-[10px] font-mono font-bold uppercase tracking-wider flex items-center gap-1">
+                <ShieldCheck className="w-3 h-3 text-amber-400" />
+                ADMIN
+              </span>
+            )}
+          </div>
         </div>
 
         {/* STATS ROW (Matching Screenshot 8: PUNTOS TOTALES | RANKING COSTA RICA) */}
@@ -231,6 +246,17 @@ export const ProfileView: React.FC = () => {
         >
           <Award className="w-4 h-4" />
           <span>Ver Pantalla de Campeón</span>
+        </button>
+
+        <button
+          onClick={() => {
+            logoutUser();
+            if (onOpenLogin) onOpenLogin();
+          }}
+          className="w-full py-3 px-4 rounded-xl bg-[#1e1015] hover:bg-[#2c131d] border border-red-500/40 text-red-400 font-heading font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-2 transition-all mt-3 cursor-pointer"
+        >
+          <LogOut className="w-4 h-4 text-red-400" />
+          <span>Cerrar Sesión</span>
         </button>
       </div>
     </div>

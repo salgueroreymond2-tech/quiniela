@@ -8,7 +8,6 @@ import {
   RotateCcw,
   Sparkles,
   Info,
-  User,
   SlidersHorizontal,
 } from 'lucide-react';
 
@@ -20,8 +19,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin }) => {
   const {
     isMuted,
     toggleMute,
-    currentUser,
-    setShowAuthModal,
     setShowRulesModal,
     simulateAllRemaining,
     resetTournament,
@@ -34,13 +31,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin }) => {
   return (
     <header className="sticky top-0 z-40 bg-[#140b16]/95 backdrop-blur-md border-b border-[#3c313e]/60 px-4 py-3">
       <div className="max-w-4xl mx-auto flex items-center justify-between">
-        {/* Left: Soccer Ball Icon & Logo */}
+        {/* Left: Logo */}
         <div className="flex items-center gap-2.5">
-          <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#6e112d] via-[#bf00ff] to-[#00f0ff] p-0.5 glow-purple-sm flex items-center justify-center">
-            <div className="w-full h-full bg-[#19101c] rounded-full flex items-center justify-center">
-              <span className="text-base">⚽</span>
-            </div>
-          </div>
+          <img
+            src="/logo.jpg"
+            alt="Quiniela Pasión"
+            className="w-10 h-10 rounded-xl object-cover border border-[#bf00ff] glow-purple-sm shadow-md"
+          />
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-heading font-black text-2xl tracking-tighter text-[#bf00ff] text-glow-purple uppercase">
@@ -178,21 +175,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin }) => {
             )}
           </div>
 
-          {/* User Profile avatar trigger */}
-          <button
-            onClick={() => setShowAuthModal(true)}
-            className="flex items-center gap-1.5 pl-1.5 pr-2 py-1 rounded-full bg-[#261c28] hover:bg-[#3c313e] border border-[#bf00ff]/40 transition-all"
-            title="Mi Cuenta"
-          >
-            <img
-              src={currentUser.avatar}
-              alt={currentUser.name}
-              className="w-6 h-6 rounded-full object-cover border border-[#bf00ff]"
-            />
-            <span className="text-xs font-mono text-[#ecb1ff] hidden sm:inline">
-              {currentUser.username}
-            </span>
-          </button>
         </div>
       </div>
     </header>
