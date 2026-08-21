@@ -52,6 +52,9 @@ const AppContent: React.FC = () => {
       {/* Top Bar */}
       <Navbar
         onOpenAdmin={() => setAdminModalOpen(true)}
+        onNavigateToLogin={() => setActiveTab('login')}
+        onNavigateToProfile={() => setActiveTab('profile')}
+        showUserProfile={activeTab !== 'login'}
       />
 
       {/* Main Content Area */}

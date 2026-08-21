@@ -9,24 +9,39 @@ import {
   Sparkles,
   Info,
   SlidersHorizontal,
+  Edit3,
+  LogOut,
 } from 'lucide-react';
 
 interface NavbarProps {
   onOpenAdmin: () => void;
+  onNavigateToLogin?: () => void;
+  onNavigateToProfile?: () => void;
+  showUserProfile?: boolean;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin }) => {
+export const Navbar: React.FC<NavbarProps> = ({
+  onOpenAdmin,
+  onNavigateToLogin,
+  onNavigateToProfile,
+  showUserProfile = true,
+}) => {
   const {
     isMuted,
     toggleMute,
+    currentUser,
+    isLoggedIn,
+    setShowAuthModal,
     setShowRulesModal,
     simulateAllRemaining,
     resetTournament,
     fillRandomPredictionsAll,
+    logoutUser,
   } = useTournament();
 
   const [showSimMenu, setShowSimMenu] = useState(false);
   const [notificationsOpen, setNotificationsOpen] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-40 bg-[#140b16]/95 backdrop-blur-md border-b border-[#3c313e]/60 px-4 py-3">
@@ -174,6 +189,67 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin }) => {
               </div>
             )}
           </div>
+
+          {isLoggedIn && showUserProfile && (
+            <div className="relative">
+              <button
+                onClick={() => setUserMenuOpen(!userMenuOpen)}
+                className="flex items-center gap-1.5 pl-1.5 pr-2 py-1 rounded-full bg-[#261c28] hover:bg-[#3c313e] border border-[#bf00ff]/40 transition-all cursor-pointer"
+                title="Mi Cuenta"
+              >
+                <img
+                  src={currentUser.avatar}
+                  alt={currentUser.name}
+                  className="w-6 h-6 rounded-full object-cover border border-[#bf00ff]"
+                />
+                <span className="text-xs font-mono text-[#ecb1ff] hidden sm:inline">
+                  {currentUser.username}
+                </span>
+              </button>
+
+              {userMenuOpen && (
+                <div className="absolute right-0 mt-2 w-56 bg-[#1e1321] border border-[#bf00ff]/50 rounded-xl shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95">
+                  <div className="px-3 py-2 border-b border-[#3c313e] mb-1">
+                    <div className="text-xs font-heading font-bold text-white truncate">
+                      {currentUser.name}
+                    </div>
+                    <div className="text-[11px] font-mono text-[#d5c0d7] truncate">
+                      {currentUser.username}
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      setUserMenuOpen(false);
+                      if (onNavigateToProfile) {
+                        onNavigateToProfile();
+                      } else {
+                        setShowAuthModal(true);
+                      }
+                    }}
+                    className="w-full flex items-center gap-2.5 px-3 py-2 text-xs font-mono text-left rounded-lg hover:bg-[#3c313e] text-[#ecb1ff] transition-colors cursor-pointer"
+                  >
+                    <Edit3 className="w-4 h-4 text-[#bf00ff]" />
+                    <span>Editar Perfil</span>
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      logoutUser();
+                      setUserMenuOpen(false);
+                      if (onNavigateToLogin) {
+                        onNavigateToLogin();
+                      }
+                    }}
+                    className="w-full flex items-center gap-2.5 px-3 py-2 text-xs font-mono text-left rounded-lg hover:bg-red-950/60 text-red-400 transition-colors cursor-pointer border-t border-[#3c313e] mt-1 pt-2"
+                  >
+                    <LogOut className="w-4 h-4 text-red-400" />
+                    <span>Cerrar Sesión</span>
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
 
         </div>
       </div>

@@ -9,7 +9,7 @@ interface LoginViewProps {
 }
 
 export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
-  const { currentUser, updateUserProfile } = useTournament();
+  const { currentUser, updateUserProfile, loginUser } = useTournament();
   const [isRegister, setIsRegister] = useState(false);
   const [email, setEmail] = useState('carlos@promerica.cr');
   const [password, setPassword] = useState('••••••••');
@@ -21,6 +21,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     updateUserProfile(name, username, favoriteTeamId);
+    loginUser();
     setIsSubmitted(true);
     setTimeout(() => {
       if (onLoginSuccess) {

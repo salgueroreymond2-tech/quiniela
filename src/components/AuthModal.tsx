@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTournament } from '../context/TournamentContext';
 import { TEAMS } from '../data/teams';
 import { TeamBadge } from './TeamBadge';
-import { Mail, Lock, ArrowRight, X, User } from 'lucide-react';
+import { Mail, Lock, ArrowRight, X, User, Camera } from 'lucide-react';
 
 export const AuthModal: React.FC = () => {
   const { showAuthModal, setShowAuthModal, currentUser, updateUserProfile } = useTournament();
@@ -11,13 +11,25 @@ export const AuthModal: React.FC = () => {
   const [name, setName] = useState(currentUser.name);
   const [username, setUsername] = useState(currentUser.username);
   const [favoriteTeamId, setFavoriteTeamId] = useState(currentUser.favoriteTeamId);
+  const [avatar, setAvatar] = useState(currentUser.avatar);
 
   if (!showAuthModal) return null;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    updateUserProfile(name, username, favoriteTeamId);
+    updateUserProfile(name, username, favoriteTeamId, avatar);
     setShowAuthModal(false);
+  };
+
+  const handleAvatarChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file || !file.type.startsWith('image/')) return;
+
+    const reader = new FileReader();
+    reader.onload = () => {
+      if (typeof reader.result === 'string') setAvatar(reader.result);
+    };
+    reader.readAsDataURL(file);
   };
 
   return (
@@ -44,6 +56,27 @@ export const AuthModal: React.FC = () => {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-3 pt-2">
+          {/* Profile photo */}
+          <div className="flex flex-col items-center gap-2">
+            <label className="relative cursor-pointer group" title="Cambiar foto de perfil">
+              <img
+                src={avatar}
+                alt="Vista previa de foto de perfil"
+                className="w-20 h-20 rounded-full object-cover border-2 border-[#bf00ff] glow-purple-sm"
+              />
+              <span className="absolute inset-0 rounded-full bg-black/65 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <Camera className="w-5 h-5 text-white" />
+              </span>
+              <input
+                type="file"
+                accept="image/*"
+                onChange={handleAvatarChange}
+                className="sr-only"
+              />
+            </label>
+            <span className="text-[10px] font-mono text-[#d5c0d7]">Cambiar foto de perfil</span>
+          </div>
+
           {/* Name if register */}
           {isRegister && (
             <div className="space-y-1">

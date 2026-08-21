@@ -46,6 +46,7 @@ interface TournamentContextType {
   fillRandomPredictionsAll: () => void;
   resetTournament: () => void;
   toggleMute: () => void;
+  loginUser: () => void;
   logoutUser: () => void;
   setActiveScorerMatchId: (matchId: string | null) => void;
   setShowChampionModal: (show: boolean) => void;
@@ -53,7 +54,7 @@ interface TournamentContextType {
   setShowRulesModal: (show: boolean) => void;
   toggleLikePost: (postId: string) => void;
   addSocialPost: (content: string, matchId?: string) => void;
-  updateUserProfile: (name: string, username: string, favoriteTeamId: string) => void;
+  updateUserProfile: (name: string, username: string, favoriteTeamId: string, avatar?: string) => void;
   
   // Computed helpers
   top4TeamIds: string[];
@@ -138,6 +139,11 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
   const [showChampionModal, setShowChampionModal] = useState<boolean>(false);
   const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
   const [showRulesModal, setShowRulesModal] = useState<boolean>(false);
+
+  const loginUser = () => {
+    setIsLoggedIn(true);
+    playSound('click');
+  };
 
   const logoutUser = () => {
     setIsLoggedIn(false);
@@ -647,12 +653,13 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
     playSound('click');
   };
 
-  const updateUserProfile = (name: string, username: string, favoriteTeamId: string) => {
+  const updateUserProfile = (name: string, username: string, favoriteTeamId: string, avatar?: string) => {
     setCurrentUser((prev) => ({
       ...prev,
       name,
       username: username.startsWith('@') ? username : `@${username}`,
       favoriteTeamId,
+      ...(avatar ? { avatar } : {}),
     }));
   };
 
@@ -688,6 +695,7 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
         fillRandomPredictionsAll,
         resetTournament,
         toggleMute,
+        loginUser,
         logoutUser,
         setActiveScorerMatchId,
         setShowChampionModal,
