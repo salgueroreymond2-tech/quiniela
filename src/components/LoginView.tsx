@@ -51,9 +51,6 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                 className="w-full h-full object-cover rounded-[22px]"
               />
             </div>
-            <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-[#bf00ff] text-black font-mono font-black text-[10px] uppercase tracking-widest shadow-lg">
-              CR 2026/27
-            </span>
           </div>
 
           <h1 className="text-3xl font-heading font-black text-[#bf00ff] text-glow-purple uppercase tracking-wider pt-2">

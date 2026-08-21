@@ -60,9 +60,6 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="font-heading font-black text-2xl tracking-tighter text-[#bf00ff] text-glow-purple uppercase">
                 PASIÓN
               </span>
-              <span className="text-[10px] uppercase font-mono px-1.5 py-0.5 rounded bg-[#bf00ff]/20 text-[#ecb1ff] border border-[#bf00ff]/40">
-                CR 2026/27
-              </span>
             </div>
           </div>
         </div>
