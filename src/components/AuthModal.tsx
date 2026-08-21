@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTournament } from '../context/TournamentContext';
 import { TEAMS } from '../data/teams';
 import { TeamBadge } from './TeamBadge';
-import { Mail, Lock, ArrowRight, X, User, Camera } from 'lucide-react';
+import { Mail, Lock, ArrowRight, X, User, Camera, Eye, EyeOff } from 'lucide-react';
 
 export const AuthModal: React.FC = () => {
   const { showAuthModal, setShowAuthModal, currentUser, updateUserProfile } = useTournament();
@@ -12,6 +12,7 @@ export const AuthModal: React.FC = () => {
   const [username, setUsername] = useState(currentUser.username);
   const [favoriteTeamId, setFavoriteTeamId] = useState(currentUser.favoriteTeamId);
   const [avatar, setAvatar] = useState(currentUser.avatar);
+  const [showPassword, setShowPassword] = useState(false);
 
   if (!showAuthModal) return null;
 
@@ -114,13 +115,22 @@ export const AuthModal: React.FC = () => {
           {/* Password (Matching screenshot 9) */}
           <div className="space-y-1">
             <label className="text-[11px] font-mono text-[#d5c0d7] uppercase">Contraseña</label>
-            <div className="flex items-center gap-2 bg-white rounded-xl px-3 py-2 text-black">
+              <div className="flex items-center gap-2 bg-white rounded-xl px-3 py-2 text-black">
               <Lock className="w-4 h-4 text-zinc-500" />
               <input
-                type="password"
+                  type={showPassword ? 'text' : 'password'}
                 defaultValue="••••••••"
                 className="w-full bg-transparent text-black text-sm focus:outline-none"
               />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword((visible) => !visible)}
+                  className="text-zinc-500 hover:text-[#bf00ff] transition-colors"
+                  title={showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'}
+                  aria-label={showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'}
+                >
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
             </div>
             <div className="text-right">
               <span className="text-[10px] font-mono text-[#bf00ff] hover:underline cursor-pointer">

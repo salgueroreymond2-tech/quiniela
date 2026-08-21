@@ -18,7 +18,11 @@ import { AdminView } from './components/AdminView';
 const AppContent: React.FC = () => {
   const [adminModalOpen, setAdminModalOpen] = useState(false);
   const { setActiveScorerMatchId, currentUser, isLoggedIn } = useTournament();
-  const isAdmin = currentUser.role === 'admin' || currentUser.isAdmin === true || currentUser.username === '@admin_master';
+  const isAdmin = isLoggedIn && (
+    currentUser.role === 'admin' ||
+    currentUser.isAdmin === true ||
+    currentUser.username === '@admin_master'
+  );
   const [activeTab, setActiveTab] = useState<NavTab>(() => {
     if (!isLoggedIn) return 'login';
     return isAdmin ? 'admin' : 'dashboard';
