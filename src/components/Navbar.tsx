@@ -19,6 +19,7 @@ interface NavbarProps {
   onNavigateToProfile?: () => void;
   onNavigateToAdmin?: () => void;
   showUserProfile?: boolean;
+  showSimulator?: boolean;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -27,6 +28,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onNavigateToProfile,
   onNavigateToAdmin,
   showUserProfile = true,
+  showSimulator = true,
 }) => {
   const {
     isMuted,
@@ -67,6 +69,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Right Actions */}
         <div className="flex items-center gap-2">
           {/* Quick Simulation / Tools Dropdown */}
+          {showSimulator && (
           <div className="relative">
             <button
               onClick={() => setShowSimMenu(!showSimMenu)}
@@ -131,6 +134,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               </div>
             )}
           </div>
+          )}
 
           {/* Rules info */}
           <button

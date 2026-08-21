@@ -73,6 +73,7 @@ const AppContent: React.FC = () => {
         onNavigateToProfile={() => setActiveTab('profile')}
         onNavigateToAdmin={() => setActiveTab('admin')}
         showUserProfile={activeTab !== 'login'}
+        showSimulator={isLoggedIn && !isAdmin && activeTab !== 'login'}
       />
 
       {/* Main Content Area */}
