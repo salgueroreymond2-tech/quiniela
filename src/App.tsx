@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { TournamentProvider, useTournament } from './context/TournamentContext';
 import { Navbar } from './components/Navbar';
 import { BottomNav, NavTab } from './components/BottomNav';
@@ -16,13 +16,23 @@ import { AdminMatchModal } from './components/AdminMatchModal';
 import { AdminView } from './components/AdminView';
 
 const AppContent: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<NavTab>('login');
   const [adminModalOpen, setAdminModalOpen] = useState(false);
-  const { setActiveScorerMatchId } = useTournament();
+  const { setActiveScorerMatchId, currentUser, isLoggedIn } = useTournament();
+  const isAdmin = currentUser.role === 'admin' || currentUser.isAdmin === true || currentUser.username === '@admin_master';
+  const [activeTab, setActiveTab] = useState<NavTab>(() => {
+    if (!isLoggedIn) return 'login';
+    return isAdmin ? 'admin' : 'dashboard';
+  });
+
+  useEffect(() => {
+    if (isAdmin && activeTab !== 'admin') setActiveTab('admin');
+    if (!isAdmin && activeTab === 'admin') setActiveTab(isLoggedIn ? 'dashboard' : 'login');
+  }, [activeTab, isAdmin, isLoggedIn]);
 
   const renderActiveView = () => {
     switch (activeTab) {
       case 'dashboard':
+        if (isAdmin) return <AdminView />;
         return (
           <DashboardView
             onOpenScorerModal={(id) => setActiveScorerMatchId(id)}
@@ -44,7 +54,7 @@ const AppContent: React.FC = () => {
       case 'admin':
         return <AdminView />;
       case 'login':
-        return <LoginView onLoginSuccess={() => setActiveTab('dashboard')} />;
+        return <LoginView onLoginSuccess={() => setActiveTab(isAdmin ? 'admin' : 'dashboard')} />;
       default:
         return null;
     }
@@ -67,7 +77,7 @@ const AppContent: React.FC = () => {
       </main>
 
       {/* Bottom Navigation */}
-      <BottomNav activeTab={activeTab} setActiveTab={setActiveTab} />
+      <BottomNav activeTab={activeTab} setActiveTab={setActiveTab} isAdmin={isAdmin} />
 
       {/* Modals */}
       <ScorerVoteModal />

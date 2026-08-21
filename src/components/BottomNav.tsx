@@ -6,10 +6,11 @@ export type NavTab = 'dashboard' | 'ranking' | 'playoffs' | 'social' | 'profile'
 interface BottomNavProps {
   activeTab: NavTab;
   setActiveTab: (tab: NavTab) => void;
+  isAdmin?: boolean;
 }
 
-export const BottomNav: React.FC<BottomNavProps> = ({ activeTab, setActiveTab }) => {
-  if (activeTab === 'login' || activeTab === 'admin') return null;
+export const BottomNav: React.FC<BottomNavProps> = ({ activeTab, setActiveTab, isAdmin = false }) => {
+  if (activeTab === 'login' || activeTab === 'admin' || isAdmin) return null;
 
   const navItems: { id: NavTab; label: string; icon: React.FC<{ className?: string }> }[] = [
     { id: 'dashboard', label: 'Panel', icon: LayoutDashboard },

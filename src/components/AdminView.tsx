@@ -13,10 +13,12 @@ export const AdminView: React.FC = () => {
     setSelectedRound,
     updateRealMatchScore,
     deleteUser,
+    setUserEnabled,
+    calculateAllPoints,
   } = useTournament();
   const [activeSection, setActiveSection] = useState<'overview' | 'matches' | 'users'>('overview');
 
-  if (!currentUser.isAdmin) {
+  if (currentUser.role !== 'admin' && !currentUser.isAdmin && currentUser.username !== '@admin_master') {
     return (
       <div className="max-w-xl mx-auto px-4 py-16 text-center space-y-3">
         <ShieldCheck className="w-12 h-12 mx-auto text-red-400" />
@@ -70,6 +72,19 @@ export const AdminView: React.FC = () => {
             {label}
           </button>
         ))}
+      </div>
+
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-amber-500/10 border border-amber-400/30 rounded-xl p-3">
+        <div>
+          <p className="text-sm font-bold text-amber-200">Cálculo de puntos</p>
+          <p className="text-xs text-[#d5c0d7]">Compara los pronósticos guardados con los resultados finalizados.</p>
+        </div>
+        <button
+          onClick={calculateAllPoints}
+          className="px-3 py-2 rounded-lg bg-amber-400 text-black text-xs font-bold shrink-0"
+        >
+          Ejecutar cálculo
+        </button>
       </div>
 
       {activeSection === 'overview' && (
@@ -152,9 +167,19 @@ export const AdminView: React.FC = () => {
               {user.isAdmin ? (
                 <span className="text-[10px] font-mono text-amber-300">ADMIN</span>
               ) : (
-                <button onClick={() => handleDelete(user.id, user.name)} className="p-2 text-red-400 hover:bg-red-950/50 rounded-lg" title="Eliminar usuario">
-                  <Trash2 className="w-4 h-4" />
-                </button>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => setUserEnabled(user.id, !(user.isEnabled ?? true))}
+                    className={`px-2 py-1 rounded-md text-[10px] font-mono ${
+                      user.isEnabled === false ? 'bg-red-500/20 text-red-300' : 'bg-emerald-500/20 text-emerald-300'
+                    }`}
+                  >
+                    {user.isEnabled === false ? 'Habilitar' : 'Deshabilitar'}
+                  </button>
+                  <button onClick={() => handleDelete(user.id, user.name)} className="p-2 text-red-400 hover:bg-red-950/50 rounded-lg" title="Eliminar usuario">
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+                </div>
               )}
             </div>
           ))}

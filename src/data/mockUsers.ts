@@ -17,6 +17,8 @@ export const INITIAL_CURRENT_USER: UserProfile = {
   countryRankPercentile: 5,
   unlockedAchievements: ['oraculo-tico', 'experto-promerica', 'fiel-seguidor', 'sniper'],
   isAdmin: true,
+  role: 'admin',
+  isEnabled: true,
 };
 
 export const LEADERBOARD_USERS: UserProfile[] = [
