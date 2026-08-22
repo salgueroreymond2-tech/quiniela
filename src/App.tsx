@@ -19,8 +19,10 @@ import { getTeamById } from './data/teams';
 const AppContent: React.FC = () => {
   const [adminModalOpen, setAdminModalOpen] = useState(false);
   const { setActiveScorerMatchId, currentUser, isLoggedIn } = useTournament();
-  const favoriteTeam = getTeamById(currentUser.favoriteTeamId);
-  const usesTeamTheme = isLoggedIn && currentUser.favoriteTeamId !== 'sap';
+  const [previewTeamId, setPreviewTeamId] = useState(currentUser.favoriteTeamId);
+  const themeTeamId = isLoggedIn ? currentUser.favoriteTeamId : previewTeamId;
+  const favoriteTeam = getTeamById(themeTeamId);
+  const usesTeamTheme = themeTeamId !== 'sap';
   const isAdmin = isLoggedIn && (
     currentUser.role === 'admin' ||
     currentUser.isAdmin === true
@@ -60,7 +62,12 @@ const AppContent: React.FC = () => {
       case 'admin':
         return <AdminView />;
       case 'login':
-        return <LoginView onLoginSuccess={() => setActiveTab(isAdmin ? 'admin' : 'dashboard')} />;
+        return (
+          <LoginView
+            onLoginSuccess={() => setActiveTab(isAdmin ? 'admin' : 'dashboard')}
+            onFavoriteTeamPreview={setPreviewTeamId}
+          />
+        );
       default:
         return null;
     }

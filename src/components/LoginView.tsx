@@ -6,9 +6,10 @@ import { Mail, Lock, ArrowRight, User, Sparkles, CheckCircle2, ShieldCheck, Eye,
 
 interface LoginViewProps {
   onLoginSuccess?: () => void;
+  onFavoriteTeamPreview?: (teamId: string) => void;
 }
 
-export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
+export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavoriteTeamPreview }) => {
   const { currentUser, updateUserProfile, loginUser } = useTournament();
   const [isRegister, setIsRegister] = useState(false);
   const [email, setEmail] = useState('carlos@promerica.cr');
@@ -202,7 +203,10 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                     <button
                       type="button"
                       key={t.id}
-                      onClick={() => setFavoriteTeamId(t.id)}
+                      onClick={() => {
+                        setFavoriteTeamId(t.id);
+                        onFavoriteTeamPreview?.(t.id);
+                      }}
                       className={`p-1.5 rounded-xl flex flex-col items-center justify-center transition-all ${
                         favoriteTeamId === t.id
                           ? 'bg-[#bf00ff] text-black ring-2 ring-white scale-110 glow-purple-sm'
