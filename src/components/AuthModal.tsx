@@ -16,6 +16,62 @@ export const AuthModal: React.FC = () => {
 
   if (!showAuthModal) return null;
 
+  const handleFavoriteTeamSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    updateUserProfile(currentUser.name, currentUser.username, favoriteTeamId, currentUser.avatar);
+    setShowAuthModal(false);
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md">
+      <div className="relative w-full max-w-sm rounded-3xl bg-[#19101c] border-2 border-[#bf00ff]/80 p-6 space-y-5 glow-purple shadow-2xl">
+        <button
+          onClick={() => setShowAuthModal(false)}
+          className="absolute top-4 right-4 p-1.5 rounded-full bg-[#261c28] text-[#d5c0d7] hover:text-white"
+          title="Cerrar"
+          aria-label="Cerrar"
+        >
+          <X className="w-4 h-4" />
+        </button>
+
+        <div className="text-center space-y-1">
+          <h2 className="text-2xl font-heading font-black text-[#bf00ff] text-glow-purple uppercase tracking-wider">
+            Equipo Favorito
+          </h2>
+          <p className="text-xs text-[#d5c0d7]">Selecciona el equipo que quieres apoyar</p>
+        </div>
+
+        <form onSubmit={handleFavoriteTeamSubmit} className="space-y-5">
+          <div className="grid grid-cols-5 gap-2 p-3 bg-[#140b16] rounded-2xl border border-[#3c313e]">
+            {TEAMS.map((team) => (
+              <button
+                type="button"
+                key={team.id}
+                onClick={() => setFavoriteTeamId(team.id)}
+                className={`p-2 rounded-xl flex items-center justify-center transition-all ${
+                  favoriteTeamId === team.id
+                    ? 'bg-[#bf00ff] ring-2 ring-white scale-110 glow-purple-sm'
+                    : 'hover:bg-[#261c28]'
+                }`}
+                title={team.name}
+                aria-label={team.name}
+              >
+                <TeamBadge team={team} size="xs" />
+              </button>
+            ))}
+          </div>
+
+          <button
+            type="submit"
+            className="w-full py-3 rounded-xl bg-[#bf00ff] hover:bg-[#d033ff] text-black font-heading font-bold text-sm uppercase tracking-wider transition-all"
+          >
+            Guardar equipo
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     updateUserProfile(name, username, favoriteTeamId, avatar);
