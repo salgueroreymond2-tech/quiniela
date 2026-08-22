@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTournament } from '../context/TournamentContext';
-import { TEAMS } from '../data/teams';
+import { TEAMS, getTeamById } from '../data/teams';
 import { TeamBadge } from './TeamBadge';
 import { Mail, Lock, ArrowRight, User, Sparkles, CheckCircle2, ShieldCheck, Eye, EyeOff } from 'lucide-react';
 
@@ -19,6 +19,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
   const [username, setUsername] = useState(currentUser.username);
   const [favoriteTeamId, setFavoriteTeamId] = useState(currentUser.favoriteTeamId);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const favoriteTeam = getTeamById(favoriteTeamId);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -67,8 +68,14 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
         {/* Card Form */}
         <div className="bg-[#19101c] border-2 border-[#bf00ff]/80 rounded-3xl p-6 sm:p-8 space-y-5 glow-purple shadow-2xl relative overflow-hidden">
           {/* Subtle Ambient Background Gradient inside card */}
-          <div className="absolute -top-24 -right-24 w-48 h-48 bg-[#bf00ff]/10 rounded-full blur-3xl pointer-events-none"></div>
-          <div className="absolute -bottom-24 -left-24 w-48 h-48 bg-[#00f0ff]/10 rounded-full blur-3xl pointer-events-none"></div>
+          <div
+            className="absolute -top-24 -right-24 w-48 h-48 rounded-full blur-3xl pointer-events-none"
+            style={{ backgroundColor: favoriteTeam?.primaryColor || '#bf00ff', opacity: 0.1 }}
+          ></div>
+          <div
+            className="absolute -bottom-24 -left-24 w-48 h-48 rounded-full blur-3xl pointer-events-none"
+            style={{ backgroundColor: favoriteTeam?.secondaryColor || '#00f0ff', opacity: 0.1 }}
+          ></div>
 
           {isSubmitted ? (
             <div className="py-12 flex flex-col items-center justify-center text-center space-y-3">
@@ -90,7 +97,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
                   onClick={() => setIsRegister(false)}
                   className={`flex-1 py-2 text-xs font-heading font-bold uppercase rounded-xl transition-all ${
                     !isRegister
-                      ? 'bg-[#bf00ff] text-white glow-purple-sm'
+                      ? 'bg-[#bf00ff] text-white glow-purple-sm team-themed-button'
                       : 'text-[#d5c0d7]/70 hover:text-white'
                   }`}
                 >
@@ -101,7 +108,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
                   onClick={() => setIsRegister(true)}
                   className={`flex-1 py-2 text-xs font-heading font-bold uppercase rounded-xl transition-all ${
                     isRegister
-                      ? 'bg-[#bf00ff] text-white glow-purple-sm'
+                      ? 'bg-[#bf00ff] text-white glow-purple-sm team-themed-button'
                       : 'text-[#d5c0d7]/70 hover:text-white'
                   }`}
                 >
@@ -209,7 +216,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
                       }}
                       className={`p-1.5 rounded-xl flex flex-col items-center justify-center transition-all ${
                         favoriteTeamId === t.id
-                          ? 'bg-[#bf00ff] text-black ring-2 ring-white scale-110 glow-purple-sm'
+                          ? 'bg-[#bf00ff] text-black ring-2 ring-white scale-110 glow-purple-sm team-themed-button'
                           : 'hover:bg-[#261c28] opacity-80 hover:opacity-100'
                       }`}
                       title={t.name}
@@ -223,7 +230,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
               {/* Primary Submit Button */}
               <button
                 type="submit"
-                className="w-full py-3.5 rounded-xl bg-[#261c28] hover:bg-[#3c313e] border border-[#bf00ff] text-white font-heading font-bold text-base uppercase tracking-wider flex items-center justify-center gap-2 glow-purple-sm transition-all mt-2 cursor-pointer"
+                className="w-full py-3.5 rounded-xl bg-[#261c28] hover:bg-[#3c313e] border border-[#bf00ff] text-white font-heading font-bold text-base uppercase tracking-wider flex items-center justify-center gap-2 glow-purple-sm transition-all mt-2 cursor-pointer team-themed-button"
               >
                 <span>{isRegister ? 'Crear Cuenta' : 'Iniciar Sesión'}</span>
                 <ArrowRight className="w-5 h-5 text-[#bf00ff]" />
@@ -233,7 +240,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
               <button
                 type="button"
                 onClick={handleSubmit}
-                className="w-full py-3 rounded-xl bg-[#140b16] hover:bg-[#261c28] border border-[#3c313e] text-[#eeddee] text-xs font-mono flex items-center justify-center gap-2 transition-all cursor-pointer"
+                className="w-full py-3 rounded-xl bg-[#140b16] hover:bg-[#261c28] border border-[#3c313e] text-[#eeddee] text-xs font-mono flex items-center justify-center gap-2 transition-all cursor-pointer team-themed-outline"
               >
                 <span className="text-[#00f0ff]">➜]</span>
                 <span>Continuar con Google</span>

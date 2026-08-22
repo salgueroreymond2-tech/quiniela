@@ -75,7 +75,8 @@ const AppContent: React.FC = () => {
 
   return (
     <div
-      data-team-theme={usesTeamTheme ? currentUser.favoriteTeamId : undefined}
+      data-team-theme={usesTeamTheme ? themeTeamId : undefined}
+      data-login-theme={!isLoggedIn && usesTeamTheme ? themeTeamId : undefined}
       className="min-h-screen bg-[#050505] text-[#eeddee] flex flex-col selection:bg-[#bf00ff] selection:text-white"
       style={usesTeamTheme ? {
         '--theme-primary': favoriteTeam?.primaryColor || '#bf00ff',

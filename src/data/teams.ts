@@ -46,8 +46,8 @@ export const TEAMS: Team[] = [
     name: 'Club Sport Herediano',
     shortName: 'Herediano',
     code: 'CSH',
-    primaryColor: '#86131a', // Rojo y Amarillo Florense oscuro
-    secondaryColor: '#c08b16',
+    primaryColor: '#DE1F2B', // Rojo Florense
+    secondaryColor: '#F4BA1E',
     accentColor: '#ffd700',
     stadium: 'Estadio Carlos Alvarado Villalobos',
     city: 'Heredia',

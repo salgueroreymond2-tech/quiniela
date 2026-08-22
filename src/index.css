@@ -177,3 +177,54 @@ input[type=number] {
   text-shadow: 0 0 8px color-mix(in srgb, var(--theme-primary) 35%, transparent) !important;
 }
 
+/* Login keeps black surfaces and the original palette; only borders follow the previewed team. */
+[data-login-theme] [class*="bg-[#050505]"],
+[data-login-theme] [class*="bg-[#140b16]"],
+[data-login-theme] [class*="bg-[#19101c]"],
+[data-login-theme] [class*="bg-[#1e1321]"],
+[data-login-theme] [class*="bg-[#221824]"],
+[data-login-theme] [class*="bg-[#261c28]"],
+[data-login-theme] [class*="bg-[#2a1b2d]"] {
+  background-color: #050505 !important;
+}
+
+[data-login-theme] [class*="text-[#bf00ff]"] {
+  color: #bf00ff !important;
+}
+
+[data-login-theme] [class*="text-[#ecb1ff]"] {
+  color: #ecb1ff !important;
+}
+
+[data-login-theme] [class*="text-[#00f0ff]"] {
+  color: #00f0ff !important;
+}
+
+[data-login-theme] [class*="bg-[#bf00ff]"] {
+  background-color: #bf00ff !important;
+}
+
+[data-login-theme] [class*="bg-[#00f0ff]"] {
+  background-color: #00f0ff !important;
+}
+
+[data-login-theme] .glow-purple,
+[data-login-theme] .glow-purple-sm,
+[data-login-theme] .text-glow-purple,
+[data-login-theme] .glow-cyan,
+[data-login-theme] .glow-cyan-sm,
+[data-login-theme] .text-glow-cyan {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+[data-login-theme] .team-themed-button {
+  background-color: var(--theme-primary) !important;
+  border-color: var(--theme-primary) !important;
+  color: #ffffff !important;
+}
+
+[data-login-theme] .team-themed-outline {
+  border-color: var(--theme-primary) !important;
+}
+
