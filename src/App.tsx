@@ -23,6 +23,7 @@ const AppContent: React.FC = () => {
   const themeTeamId = isLoggedIn ? currentUser.favoriteTeamId : previewTeamId;
   const favoriteTeam = getTeamById(themeTeamId);
   const loginThemeTeam = themeTeamId === 'csh' ? getTeamById('esc') : favoriteTeam;
+  const activeThemeTeam = themeTeamId === 'csh' ? getTeamById('esc') : favoriteTeam;
   const usesTeamTheme = themeTeamId !== 'sap';
   const usesLoginTeamTheme = !isLoggedIn;
   const isAdmin = isLoggedIn && (
@@ -81,8 +82,8 @@ const AppContent: React.FC = () => {
       data-login-theme={usesLoginTeamTheme ? themeTeamId : undefined}
       className="min-h-screen bg-[#050505] text-[#eeddee] flex flex-col selection:bg-[#bf00ff] selection:text-white"
       style={usesTeamTheme || usesLoginTeamTheme ? {
-        '--theme-primary': (usesLoginTeamTheme ? loginThemeTeam : favoriteTeam)?.primaryColor || '#bf00ff',
-        '--theme-secondary': (usesLoginTeamTheme ? loginThemeTeam : favoriteTeam)?.accentColor || '#00f0ff',
+        '--theme-primary': (usesLoginTeamTheme ? loginThemeTeam : activeThemeTeam)?.primaryColor || '#bf00ff',
+        '--theme-secondary': (usesLoginTeamTheme ? loginThemeTeam : activeThemeTeam)?.accentColor || '#00f0ff',
       } as React.CSSProperties : undefined}
     >
       {/* Top Bar */}
