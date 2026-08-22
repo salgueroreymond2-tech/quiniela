@@ -31,7 +31,7 @@ export const TEAMS: Team[] = [
     shortName: 'Alajuelense',
     code: 'LDA',
     primaryColor: '#F40001', // Rojo Manudo
-    secondaryColor: '#111111',
+    secondaryColor: '#000000',
     accentColor: '#7f1118',
     stadium: 'Estadio Alejandro Morera Soto',
     city: 'Alajuela',

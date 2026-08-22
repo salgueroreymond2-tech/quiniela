@@ -177,16 +177,3 @@ input[type=number] {
   text-shadow: 0 0 8px color-mix(in srgb, var(--theme-primary) 35%, transparent) !important;
 }
 
-[data-team-theme="lda"] [class*="text-[#00f0ff]"],
-[data-team-theme="lda"] [class*="text-[#ecb1ff]"] {
-  color: var(--theme-primary) !important;
-}
-
-[data-team-theme="lda"] [class*="bg-[#00f0ff]"] {
-  background-color: #050505 !important;
-}
-
-[data-team-theme="lda"] [class*="border-[#00f0ff]"] {
-  border-color: var(--theme-primary) !important;
-}
-
