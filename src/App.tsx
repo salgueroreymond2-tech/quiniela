@@ -20,6 +20,7 @@ const AppContent: React.FC = () => {
   const [adminModalOpen, setAdminModalOpen] = useState(false);
   const { setActiveScorerMatchId, currentUser, isLoggedIn } = useTournament();
   const favoriteTeam = getTeamById(currentUser.favoriteTeamId);
+  const usesTeamTheme = isLoggedIn && currentUser.favoriteTeamId !== 'sap';
   const isAdmin = isLoggedIn && (
     currentUser.role === 'admin' ||
     currentUser.isAdmin === true
@@ -67,9 +68,9 @@ const AppContent: React.FC = () => {
 
   return (
     <div
-      data-team-theme={isLoggedIn ? currentUser.favoriteTeamId : undefined}
+      data-team-theme={usesTeamTheme ? currentUser.favoriteTeamId : undefined}
       className="min-h-screen bg-[#050505] text-[#eeddee] flex flex-col selection:bg-[#bf00ff] selection:text-white"
-      style={isLoggedIn ? {
+      style={usesTeamTheme ? {
         '--theme-primary': favoriteTeam?.primaryColor || '#bf00ff',
         '--theme-secondary': favoriteTeam?.accentColor || '#00f0ff',
       } as React.CSSProperties : undefined}
