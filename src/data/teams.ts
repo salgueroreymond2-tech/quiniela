@@ -30,7 +30,7 @@ export const TEAMS: Team[] = [
     name: 'Liga Deportiva Alajuelense',
     shortName: 'Alajuelense',
     code: 'LDA',
-    primaryColor: '#4d070d', // Rojo Manudo muy oscuro
+    primaryColor: '#F40001', // Rojo Manudo
     secondaryColor: '#111111',
     accentColor: '#7f1118',
     stadium: 'Estadio Alejandro Morera Soto',

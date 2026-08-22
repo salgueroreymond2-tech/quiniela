@@ -166,3 +166,14 @@ input[type=number] {
   border-color: #241014 !important;
 }
 
+[data-team-theme="lda"] [class*="bg-[#bf00ff]"] {
+  background-color: color-mix(in srgb, var(--theme-primary) 72%, #050505) !important;
+}
+
+[data-team-theme="lda"] .glow-purple,
+[data-team-theme="lda"] .glow-purple-sm,
+[data-team-theme="lda"] .text-glow-purple {
+  box-shadow: 0 0 8px color-mix(in srgb, var(--theme-primary) 22%, transparent) !important;
+  text-shadow: 0 0 8px color-mix(in srgb, var(--theme-primary) 35%, transparent) !important;
+}
+
