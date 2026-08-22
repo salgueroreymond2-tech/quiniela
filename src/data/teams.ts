@@ -30,9 +30,9 @@ export const TEAMS: Team[] = [
     name: 'Liga Deportiva Alajuelense',
     shortName: 'Alajuelense',
     code: 'LDA',
-    primaryColor: '#c00000', // Rojo Manudo
+    primaryColor: '#4d070d', // Rojo Manudo muy oscuro
     secondaryColor: '#111111',
-    accentColor: '#ff2a2a',
+    accentColor: '#7f1118',
     stadium: 'Estadio Alejandro Morera Soto',
     city: 'Alajuela',
     founded: 1919,
@@ -46,8 +46,8 @@ export const TEAMS: Team[] = [
     name: 'Club Sport Herediano',
     shortName: 'Herediano',
     code: 'CSH',
-    primaryColor: '#e31b23', // Rojo y Amarillo Florense
-    secondaryColor: '#f7b928',
+    primaryColor: '#86131a', // Rojo y Amarillo Florense oscuro
+    secondaryColor: '#c08b16',
     accentColor: '#ffd700',
     stadium: 'Estadio Carlos Alvarado Villalobos',
     city: 'Heredia',

@@ -82,3 +82,87 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+/* Team theme is scoped to authenticated sessions; login keeps the default palette. */
+[data-team-theme] [class*="text-[#bf00ff]"],
+[data-team-theme] [class*="text-[#ecb1ff]"] {
+  color: var(--theme-primary) !important;
+}
+
+[data-team-theme] [class*="bg-[#bf00ff]"] {
+  background-color: var(--theme-primary) !important;
+}
+
+[data-team-theme] [class*="border-[#bf00ff]"] {
+  border-color: var(--theme-primary) !important;
+}
+
+[data-team-theme] [class*="text-[#00f0ff]"] {
+  color: var(--theme-secondary) !important;
+}
+
+[data-team-theme] [class*="bg-[#00f0ff]"] {
+  background-color: var(--theme-secondary) !important;
+}
+
+[data-team-theme] [class*="border-[#00f0ff]"] {
+  border-color: var(--theme-secondary) !important;
+}
+
+[data-team-theme] [class*="bg-[#050505]"],
+[data-team-theme] [class*="bg-[#140b16]"] {
+  background-color: color-mix(in srgb, var(--theme-primary) 12%, #050505) !important;
+}
+
+[data-team-theme] [class*="bg-[#19101c]"],
+[data-team-theme] [class*="bg-[#1e1321]"] {
+  background-color: color-mix(in srgb, var(--theme-primary) 24%, #120d14) !important;
+}
+
+[data-team-theme] [class*="bg-[#221824]"],
+[data-team-theme] [class*="bg-[#261c28]"],
+[data-team-theme] [class*="bg-[#2a1b2d]"] {
+  background-color: color-mix(in srgb, var(--theme-primary) 32%, #1a121c) !important;
+}
+
+[data-team-theme] [class*="border-[#3c313e]"] {
+  border-color: color-mix(in srgb, var(--theme-primary) 42%, #3c313e) !important;
+}
+
+[data-team-theme] header,
+[data-team-theme] nav {
+  background-color: color-mix(in srgb, var(--theme-primary) 22%, #100a12) !important;
+  border-color: color-mix(in srgb, var(--theme-primary) 48%, #3c313e) !important;
+}
+
+[data-team-theme] .glow-purple,
+[data-team-theme] .glow-purple-sm,
+[data-team-theme] .text-glow-purple {
+  box-shadow: 0 0 18px color-mix(in srgb, var(--theme-primary) 45%, transparent);
+  text-shadow: 0 0 16px color-mix(in srgb, var(--theme-primary) 80%, transparent);
+}
+
+[data-team-theme] .glow-cyan,
+[data-team-theme] .glow-cyan-sm,
+[data-team-theme] .text-glow-cyan {
+  box-shadow: 0 0 18px color-mix(in srgb, var(--theme-secondary) 45%, transparent);
+  text-shadow: 0 0 14px color-mix(in srgb, var(--theme-secondary) 80%, transparent);
+}
+
+/* Alajuelense uses a restrained red accent over black surfaces. */
+[data-team-theme="lda"] [class*="bg-[#050505]"],
+[data-team-theme="lda"] [class*="bg-[#140b16]"],
+[data-team-theme="lda"] [class*="bg-[#19101c]"],
+[data-team-theme="lda"] [class*="bg-[#1e1321]"],
+[data-team-theme="lda"] [class*="bg-[#221824]"],
+[data-team-theme="lda"] [class*="bg-[#261c28]"],
+[data-team-theme="lda"] [class*="bg-[#2a1b2d]"],
+[data-team-theme="lda"] header,
+[data-team-theme="lda"] nav {
+  background-color: #050505 !important;
+}
+
+[data-team-theme="lda"] [class*="border-[#3c313e]"] {
+  border-color: #241014 !important;
+}
+
