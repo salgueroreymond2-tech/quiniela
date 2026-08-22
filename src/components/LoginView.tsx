@@ -20,6 +20,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
   const [favoriteTeamId, setFavoriteTeamId] = useState(currentUser.favoriteTeamId);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const favoriteTeam = getTeamById(favoriteTeamId);
+  const loginThemeTeam = favoriteTeamId === 'csh' ? getTeamById('esc') : favoriteTeam;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -55,7 +56,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
             </div>
           </div>
 
-          <h1 className="text-3xl font-heading font-black text-[#bf00ff] text-glow-purple uppercase tracking-wider pt-2">
+          <h1 className="text-3xl font-heading font-black text-[#bf00ff] text-glow-purple uppercase tracking-wider pt-2 team-themed-title">
             PASIÓN QUINIELA
           </h1>
           <p className="text-xs text-[#d5c0d7] max-w-xs font-mono">
@@ -70,11 +71,16 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
           {/* Subtle Ambient Background Gradient inside card */}
           <div
             className="absolute -top-24 -right-24 w-48 h-48 rounded-full blur-3xl pointer-events-none"
-            style={{ backgroundColor: favoriteTeam?.primaryColor || '#bf00ff', opacity: 0.1 }}
+            style={{ backgroundColor: loginThemeTeam?.primaryColor || '#bf00ff', opacity: 0.1 }}
           ></div>
           <div
             className="absolute -bottom-24 -left-24 w-48 h-48 rounded-full blur-3xl pointer-events-none"
-            style={{ backgroundColor: favoriteTeam?.secondaryColor || '#00f0ff', opacity: 0.1 }}
+            style={{
+              backgroundColor: loginThemeTeam?.id === 'sap'
+                ? loginThemeTeam.primaryColor
+                : loginThemeTeam?.secondaryColor || '#00f0ff',
+              opacity: 0.1,
+            }}
           ></div>
 
           {isSubmitted ? (

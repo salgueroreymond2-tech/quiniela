@@ -228,3 +228,17 @@ input[type=number] {
   border-color: var(--theme-primary) !important;
 }
 
+[data-login-theme] .team-themed-title {
+  color: var(--theme-primary) !important;
+  text-shadow: 0 0 10px color-mix(in srgb, var(--theme-primary) 42%, transparent) !important;
+}
+
+[data-login-theme="sap"] .glow-purple,
+[data-login-theme="sap"] .glow-purple-sm {
+  box-shadow: 0 0 12px color-mix(in srgb, var(--theme-primary) 42%, transparent) !important;
+}
+
+[data-login-theme="sap"] .team-themed-title {
+  text-shadow: 0 0 12px color-mix(in srgb, var(--theme-primary) 55%, transparent) !important;
+}
+

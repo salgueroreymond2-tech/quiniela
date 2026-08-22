@@ -14,7 +14,7 @@ export const TEAMS: Team[] = [
     name: 'Deportivo Saprissa',
     shortName: 'Saprissa',
     code: 'SAP',
-    primaryColor: '#6e112d', // Morado Saprissa
+    primaryColor: '#46002C', // Morado Saprissa para inicio de sesión
     secondaryColor: '#ffffff',
     accentColor: '#bf00ff',
     stadium: 'Estadio Ricardo Saprissa Aymá',
