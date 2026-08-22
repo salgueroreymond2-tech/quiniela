@@ -165,7 +165,18 @@ export const TournamentProvider: React.FC<{ children: ReactNode }> = ({ children
 
   const loginUser = (isAdmin = false) => {
     setIsLoggedIn(true);
-    setCurrentUser((prev) => ({ ...prev, isAdmin, role: isAdmin ? 'admin' : 'user', isEnabled: true }));
+    setCurrentUser((prev) => ({
+      ...prev,
+      ...(isAdmin
+        ? { isAdmin: true, role: 'admin' as const, isEnabled: true }
+        : {
+            name: prev.username === '@admin_master' ? 'Carlos Mendoza' : prev.name,
+            username: prev.username === '@admin_master' ? '@carlos_predice' : prev.username,
+            isAdmin: false,
+            role: 'user' as const,
+            isEnabled: true,
+          }),
+    }));
     playSound('click');
   };
 

@@ -20,8 +20,7 @@ const AppContent: React.FC = () => {
   const { setActiveScorerMatchId, currentUser, isLoggedIn } = useTournament();
   const isAdmin = isLoggedIn && (
     currentUser.role === 'admin' ||
-    currentUser.isAdmin === true ||
-    currentUser.username === '@admin_master'
+    currentUser.isAdmin === true
   );
   const [activeTab, setActiveTab] = useState<NavTab>(() => {
     if (!isLoggedIn) return 'login';

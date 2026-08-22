@@ -18,7 +18,7 @@ export const AdminView: React.FC = () => {
   } = useTournament();
   const [activeSection, setActiveSection] = useState<'overview' | 'matches' | 'users'>('overview');
 
-  if (currentUser.role !== 'admin' && !currentUser.isAdmin && currentUser.username !== '@admin_master') {
+  if (currentUser.role !== 'admin' && !currentUser.isAdmin) {
     return (
       <div className="max-w-xl mx-auto px-4 py-16 text-center space-y-3">
         <ShieldCheck className="w-12 h-12 mx-auto text-red-400" />

@@ -236,7 +236,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     <span>Editar Perfil</span>
                   </button>
 
-                  {(currentUser.role === 'admin' || currentUser.isAdmin || currentUser.username === '@admin_master') && (
+                  {(currentUser.role === 'admin' || currentUser.isAdmin) && (
                     <button
                       onClick={() => {
                         setUserMenuOpen(false);
