@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTournament } from '../context/TournamentContext';
 import { TEAMS, getTeamById } from '../data/teams';
 import { TeamBadge } from './TeamBadge';
+import { PasionLogo } from './PasionLogo';
 import { Mail, Lock, ArrowRight, User, Sparkles, CheckCircle2, ShieldCheck, Eye, EyeOff } from 'lucide-react';
 
 interface LoginViewProps {
@@ -46,19 +47,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess, onFavorite
         
         {/* Header Branding */}
         <div className="flex flex-col items-center text-center space-y-2">
-          <div className="relative">
-            <div className="w-24 h-24 rounded-3xl p-1 bg-gradient-to-tr from-[#6e112d] via-[#bf00ff] to-[#00f0ff] glow-purple shadow-2xl overflow-hidden flex items-center justify-center">
-              <img
-                src="/logo.jpg"
-                alt="Quiniela Pasión Logo"
-                className="w-full h-full object-cover rounded-[22px]"
-              />
-            </div>
-          </div>
-
-          <h1 className="text-3xl font-heading font-black text-[#bf00ff] text-glow-purple uppercase tracking-wider pt-2 team-themed-title">
-            PASIÓN QUINIELA
-          </h1>
+          <PasionLogo size="lg" />
           <p className="text-xs text-[#d5c0d7] max-w-xs font-mono">
             {isRegister 
               ? 'Únete a la mejor comunidad de pronósticos de la Liga Promérica' 

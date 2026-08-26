@@ -54,6 +54,24 @@
   text-shadow: 0 0 14px rgba(0, 240, 255, 0.8);
 }
 
+/* PASIÓN wordmark: neon tube outline, cambia de color según el equipo */
+.pasion-logo {
+  --pasion-neon: #d040ff;
+  --pasion-neon-deep: #a000ff;
+  display: inline-block;
+  overflow: visible;
+  color: var(--pasion-neon);
+  filter: drop-shadow(0 0 3px color-mix(in srgb, var(--pasion-neon) 65%, transparent))
+          drop-shadow(0 0 8px color-mix(in srgb, var(--pasion-neon) 40%, transparent))
+          drop-shadow(0 0 16px color-mix(in srgb, var(--pasion-neon-deep) 30%, transparent));
+}
+
+[data-team-theme] .pasion-logo,
+[data-login-theme] .pasion-logo {
+  --pasion-neon: var(--theme-primary);
+  --pasion-neon-deep: color-mix(in srgb, var(--theme-primary) 58%, #46007f);
+}
+
 /* Custom scrollbars */
 ::-webkit-scrollbar {
   width: 6px;
